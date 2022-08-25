@@ -105,7 +105,7 @@ grid-template-columns: repeat(2,1fr);
         gap:20px;
     }
 }
-@media only screen and (min-device-width: 500px) and (max-device-width: 850px){
+@media only screen and (min-device-width: 100px) and (max-device-width: 500px){
     #container1>div{
         display: grid;
         grid-template-columns: repeat(1,1fr);
