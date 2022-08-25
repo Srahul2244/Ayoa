@@ -3,32 +3,37 @@ button {
   border-radius: 15px;
   background: #ff0000;
   color: #fff;
-  cursor: pointer;
+  
   font: 1.2em "consolas";
   transition: transform 300ms ease;
   z-index: 2;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 button:active {
   transform: scale(0.95);
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
-
-* {
-  margin: 0;
-  padding: 0;
+#nav{
+  position: static;
+}
+#whiteboard{
+  margin-top: 30px;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 canvas {
   background: #fff;
-  border: 1px dashed;
   width: 100%;
+  border: 1px dashed;
 }
 a {
   display: inline-block;
   background: #69c;
   color: #fff;
-  padding: 5px 10px;
+  padding: 10px 20px;
   border-radius: 100px;
   margin-left: 40px;
   text-decoration: none;
@@ -45,7 +50,7 @@ a {
 }
 p {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 10px 0 20px 0;
 }
 #clear {
   margin-left: 10px;
@@ -64,6 +69,7 @@ p {
 }
 .board {
   width: 100%;
+  cursor: crosshair;
 }
 .drawing-colors {
   display: flex;
@@ -75,7 +81,12 @@ p {
   border-radius: 50%;
   margin-left: 5px;
   border: 1px solid black;
-  cursor: pointer;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.color-circle:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 
 .color-circle:nth-child(1) {
@@ -113,8 +124,9 @@ p {
 }
 #container {
   display: grid;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 5% 95%;
   margin-top: 20px;
+  justify-content: center;
 }
 
 #feature {
@@ -124,8 +136,8 @@ p {
 }
 #feature button {
   width: 100%;
-  background-color:white;
-  color:rgb(20, 87, 204);
+  background-color: white;
+  color: rgb(20, 87, 204);
 }
 #feature > div {
   display: flex;
