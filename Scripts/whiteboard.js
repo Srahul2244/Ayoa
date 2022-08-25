@@ -1,5 +1,3 @@
-
-
 const colorCircle = document.querySelectorAll(".color-circle");
 let penSize = 10;
 let isDrawing;
@@ -19,9 +17,11 @@ canvas.addEventListener("mouseup", (e) => {
   y = undefined;
 });
 
-canvas.addEventListener("mousemove", (event) => {
+
+function start(event){
   draw(event.offsetX, event.offsetY);
-});
+}
+
 
 c.fillStyle = "red";
 
@@ -75,3 +75,18 @@ document
     "click",
     (event) => (event.target.href = canvas.toDataURL())
   );
+
+let pencil = () => {
+  canvas.addEventListener("mousemove",start);
+  document.getElementById("container").style.gridTemplateColumns = "10% 90%";
+
+  penSize = "1";
+  c.fillStyle = "black";
+  var x = document.getElementById("drawing-colors");
+  var fill = document.getElementById("fill");
+ // console.log("x:", x);
+ 
+  
+  
+  
+};
