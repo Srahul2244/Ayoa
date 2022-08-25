@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav_container"></div>
+    <div id="main">
+        <div id="heading">
+            <h1>Be different, work visually</h1>
+            <p>Try the world’s most visual productivity app. Supercharge thinking, planning and learning with AI, mind maps, task boards, and more</p>
+            <input type="text" placeholder="Enter your email">
+            <button>Get Started</button>
+            <img src="https://www.ayoa.com/wp-content/uploads/2022/07/ayoa_allinone_watch.webp" alt="image">
+        </div>
+        <div class="a">
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2018/05/cbsnews_logo.png">
+                <p>“The most unique twist on task management I’ve ever seen”</p>
+            </div>
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2018/05/techcrunch-logo.png">
+                <p>“Visually-oriented people – this layout boosts productivity”</p>
+            </div>
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2019/09/logo-lhacker.png">
+                <p>“Turns your tasks into an awesome venn diagram”</p>
+            </div>
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2019/09/logo-pcworld.png">
+                <p>“A more intuitive way to manage workloads”</p>
+            </div>
+        </div>
+        <div id="howDoesAyoaHelp">
+            <div>
+                <h1 id="span">The world’s only </h1>
+                <h1> mind maps with<span>AI</span></h1>
+                <p>Use one of the largest deep learning networks ever created to generate unique and innovative ideas for anything you can think of.</p>
+                <p><span>&#10004;</span> Ask the right questions.</p>
+                <p><span>&#10004;</span> Breeze past blocks.</p>
+                <p><span>&#10004;</span> Explore new angles.</p>
+                <p><span>&#10004;</span> Unlock problems.</p>
+                <p><span>&#10004;</span> Mind map in full flow.</p>
+                <p>Take your mind maps to the next level using AI.*Available in <B>Ayoa Ultimate only.</B></p>
+                <button>Find out more</button>
+            </div>
+            <!-- <img src="https://www.ayoa.com/wp-content/uploads/2021/04/new_neurodiversity_ayoahelp_1.jpg" alt=""> -->
+            
+        </div>
+    </div>
+</body>
+</html>
+<script type="module">
+    let nav=document.querySelector("#nav_container");
+    import navbar from './components/navbar.js'
+    nav.innerHTML=navbar();
+</script>
