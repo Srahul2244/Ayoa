@@ -1,0 +1,148 @@
+#nav{
+    border: 1px solid  #2296f4;
+    height:60px;
+    background-color: #2296f4;
+ }
+img{
+    width:200px;
+    height:60px;
+    border: 1px solid  #2296f4;
+}
+#nav1{
+display: flex;
+
+}
+a{
+margin-top:20px;
+margin-left: 30px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+}
+#border{
+height:58px;
+width:1px;
+background-color: #2296f4;
+}
+#nav3{
+border: 1px solid rgb(244, 241, 241);
+width:400px;
+height: 850px;
+}
+#top{
+border: 1px solid rgb(235, 233, 233);
+width:400px;
+height:200px;
+}
+#bottom>div{
+border: 1px solid rgb(224, 219, 219);
+height:70px;
+width:400px;
+background-color: #fdf7f7;
+}
+#bottom>div{
+display: flex;
+}
+#bottom>div>img{
+height:50px;
+width:60px;
+border:none;
+color: #5a5a5a;
+font-size:20px;
+font-weight:400;
+line-height:28.5714px;
+color: rgb(128, 128, 128)
+}
+
+#bottom>div>h1{
+font-style:"Helvetica Neue", Helvetica, Arial, sans-serif ; 
+font-size:25px;
+font-weight: 400;
+line-height:20px;
+color: rgb(90,90,90);
+margin-left:80px;
+}
+#i{
+border: 1px solid rgb(14, 234, 161);;
+width: 200px;
+height:90px;
+background-color:rgb(14, 234, 161);
+}
+#top{
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 40px;
+}
+div>p{
+margin-left:20px;
+font-size: 20px;
+color: rgb(91, 91, 91);
+}
+#heading{
+height: 50px;
+width:500px;
+margin-left: 45%;
+margin-top: -40%;
+font-size: 30px;
+color: rgb(87, 86, 86);
+}
+#heading1{
+border: 1px solid rgb(243, 239, 239);
+height: 400px;
+width: 50%;
+margin-left:35%;
+margin-top:30px;
+border-radius: 20px;
+}
+#heading2{
+border: 1px solid rgb(232, 226, 226);
+height: 200px;
+width: 50%;
+margin-left:35%;
+margin-top:30px;
+border-radius: 20px;
+}
+#text1{
+text-align: center;
+}
+#flex4{
+display: flex;
+justify-content: space-around;
+color: #b1afaf;
+}
+
+#flex5{
+display: flex;
+justify-content: space-around;
+color: #b1afaf;
+}
+#flex6{
+display: flex;
+justify-content: space-around;
+color: #b1afaf;
+}
+#flex7{
+height: 10px;
+width:100px;
+border: 1px solid rgb(67, 174, 13);
+margin: auto;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+background-color: green;
+color: white;
+border-radius: 10px;
+}
+#flex9{
+display: flex;
+justify-content: center;
+font-size: 15px;
+color: #b1afaf;
+}
+#flex10{
+display: flex;
+justify-content: center;
+color: #b1afaf;
+font-size: 10px;
+}
