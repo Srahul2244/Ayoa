@@ -1,102 +1,299 @@
 *{
-    margin: 0%;
-    padding: 0%;
     font-family: 'Nunito Sans', sans-serif;
 }
-#heading{
-    width: 100%;
-    font-size:30px;
-    text-align: center;
 
-}
-#heading h1{
-    padding-top: 60px;
-}
-#heading p{
-    width: 50%;
-    font-size: 20px;
+
+#beDifferent{
+    width: 70%;
+    text-align: center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
+}
+#beDifferent h1>b{
+    font-size: 70px;
+    font-weight: 900;
+}
+#beDifferent p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
     margin-bottom: 30px;
-}
-#heading input{
-    width: 30rem;
-    height: 4rem;
-    border-radius: 10px;
-    font-size:20px;
-    padding-left: 30px;
-    border: 10px solid rgb(228, 229, 243);
-}
-#heading button{
-    width: 11rem;
-    position: absolute;
-    top: 0;
-    border-radius: 5px;
-    z-index:1;
-    border: none;
     font-size: 20px;
-    height:3rem;
+}
+
+#inputDiv{
+    width: 55%;
+    border: 10px solid #00a9fd2c;;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 35px;
+}
+
+#emailInput{
+    height: 50px;
+    width: 60%;
+    border: none;
+}
+#getStartedButton{
+    width: 40%;
+    background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
+    border: none;
     color: white;
-    background-color: #00A8FB;
-    margin-top:295px;
-    right: 430px;
+    font-size: 25px;
+    border-radius: 10px;
     cursor: pointer;
 }
-#heading input:hover{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+#getStartedButton:hover{
+    width: 40%;
+    background-image:  linear-gradient(to bottom, #0395df, #015b88e1);
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#mainPoster{
+    margin: auto;
+    width: 100%;
+    margin-top: 50px;
 
 }
-#main .a{
-    width:70%;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    justify-content:center;
+
+
+#smallIcons{
+    width: 70%;
+    display: flex;
     margin: auto;
-    gap: 15px;
     text-align: center;
+    gap: 30px;
 }
-#main .a p{
-    margin-top: 20px;
+
+
+
+
+
+
+
+#emptyBox{
+    position: absolute;
+    position: relative;
+    width: 70%;
+    height: 680px;
+    background-color: #c6e6f694;
+    border-radius: 50px;
+    z-index:-1;
+    top: 670px;
+    margin-top: -500px;
+    margin-left: 20px;
+
 }
+
 
 #howDoesAyoaHelp{
     display: flex;
-    width: 90%;
+    justify-content: space-between;
+    width: 95%;
     margin: auto;
-    color: #555454;
-    font-size: 20px;
-    justify-content:space-between;
-    line-height: 30px;
-    margin-bottom: 100px;
-    margin-top: 150px;
-    border: 1px solid red;
-    border-radius: 30px;
-
 }
-#howDoesAyoaHelp>div{
-    width:40%;
+#howDoesAyoaHelp video{
+    width: 50%;
+    height: fit-content;
+    margin-top: 130px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 30px;
+}
+
+
+#howDoesAyoaHelp  h1{
+    font-size: 40px;
+    font-style: bold;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: 1000;
+    font-family: sans-serif;
+}
+#howDoesAyoaHelp  h1>span{
+    font-size: 40px;
+    font-style: bold;
+    margin-top: 50px;
+    font-weight: 1000;
+    font-family: sans-serif;
+    color: white;
+    background-color: #0395df;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+#howDoesAyoaHelp p>span{
+    color: #057ebb;
+}
+#thickDiv{
     display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#howDoesAyoaHelp p{
+    width: 70%;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 25px;
+}
+#howDoesAyoaHelp #clickText{
+    color: #006b92;
+    font-weight: 1000;
+    cursor: pointer;
+}
+#howDoesAyoaHelp #clickText:hover{
+    color: #a4a4a4;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+
+
+#findOutMoreButton{
+    height: 46px;
+    width: 200px;
+    background-color: #07a9fa;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ #findOutMoreButton:hover{
+    height: 46px;
+    width: 200px;
+    background-color: #0576af;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+
+ }
+ #howDoesAyoaHelp button{
     margin-left: 50px;
     
-    
+ }
+
+#chooseCreativityHeading{
+    margin-top: 100px;
+    text-align: center ;
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+    margin-top: 200px;
+    font-weight: 2000;
 }
-#howDoesAyoaHelp>img{
-    width: 45%;
+
+
+
+ #compritionDiv{
+    width: 90%;
+    display: flex;
+    gap: 25px;
+    margin: auto;
+ }
+ #compritionDiv>div{
+    /* border: 1px solid rgba(128, 128, 128, 0.383); */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: left;
+ }
+
+
+
+ #seeFullFeatureBTN{
+    height: 46px;
+    width: 300px;
+    background-color: #07a9fa;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+ }
+ #seeFullFeatureBTN:hover{
+    height: 46px;
+    width: 300px;
+    background-color: #0576af;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 20px;
+
+ }
+ #chooseCreativityHeadingMainDiv{
+    margin: auto;
+    text-align: center;
+ }
+
+
+ #flexibility{
+    text-align: center;
+    margin-top: 120px;
+ }
+#flexibility h1{
+    font-size: 55px;
+    font-weight: 900;
+}
+#flexibility h1>span{
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(238, 44, 102) ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#flexibility p{
+    width: 50%;
+    margin: auto;
+}
+
+
+#designedForDiversity{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+    gap: 25px;
+
+}
+#designedForDiversity>img{
+    width: 50%;
+
+}
+
+#designedForDiversity>div>div{
+    display: flex;
+    gap: 40px;
+}
+
+#designedForDiversity>div>div img{
+    width: 50%;
     margin-top: 30px;
 }
-#howDoesAyoaHelp>div>h1{
-    color: #00a9fd;
-    margin-top: 20px;
+#designedForDiversity>div>div{
+    width: 60%;
+    height: 100px;
 }
-#howDoesAyoaHelp h1 span{
-    background-color:#00A8FB;
-    color: white;
+#designedForDiversity h1{
+    font-size: 45px;
+    font-weight: 1000;
+
 }
-#howDoesAyoaHelp span{
-    color: #00A8FB;
-    border-radius: 5px;
-}
-#howDoesAyoaHelp #span{
-    width:100%;
+#designedForDiversity p{
+    font-size: 18px;   
 }
