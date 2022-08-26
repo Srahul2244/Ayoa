@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./features.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="navbar">
@@ -71,4 +72,10 @@
         <img src="https://www.ayoa.com/wp-content/uploads/2019/06/invitepeople.png" alt="">
     </div>
 </body>
+<script type="module">
+    let nav=document.querySelector("#navbar");
+    import navbar from './components/navbar.js'
+    nav.innerHTML=navbar();
+  </script>
+  <script src="./Scripts/nav.js"></script>
 </html>
