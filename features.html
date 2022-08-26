@@ -71,11 +71,15 @@
         </div>
         <img src="https://www.ayoa.com/wp-content/uploads/2019/06/invitepeople.png" alt="">
     </div>
+    <div id="footer"></div>
 </body>
 <script type="module">
     let nav=document.querySelector("#navbar");
     import navbar from './components/navbar.js'
     nav.innerHTML=navbar();
+    let foot=document.querySelector("#footer");
+    import footer from './components/footer.js'
+    foot.innerHTML=footer();
   </script>
   <script src="./Scripts/nav.js"></script>
 </html>

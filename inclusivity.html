@@ -139,11 +139,15 @@
                 <p><span>&#10004;</span>Use Brainstorm solo mode on mind maps to focus on your own ideas before collaborating with others.</p>
             </div>
         </div>
+        <div id="footer"></div>
 </body>
 <script type="module">
     let nav=document.querySelector("#navbar");
     import navbar from './components/navbar.js'
     nav.innerHTML=navbar();
+    let foot=document.querySelector("#footer");
+    import footer from './components/footer.js'
+    foot.innerHTML=footer();
   </script>
   <script src="./Scripts/nav.js"></script>
 </html>

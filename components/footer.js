@@ -8,7 +8,6 @@ function footer(){
                 <li><a href="">Why Ayoa</a></li>
                 <li><a href="">About us</a></li>
                 <li><a href="">Pricing</a></li>
-                <li>Pricing</li>
                 <li>Integrations</li>
                 <li>Security</li>
             </ul>
