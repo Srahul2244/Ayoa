@@ -15,14 +15,13 @@ button:active {
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }
-#nav{
-  position: static;
-}
-#whiteboard{
-  margin-top: 30px;
-}
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 canvas {
   background: #fff;

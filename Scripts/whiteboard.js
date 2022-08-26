@@ -3,6 +3,10 @@ let penSize = 10;
 let isDrawing;
 let x;
 let y;
+var X = 0;
+var Y = 0;
+var str = 0;
+
 var canvas = document.querySelector("canvas");
 c = canvas.getContext("2d");
 canvas.addEventListener("mousedown", (e) => {
@@ -17,11 +21,9 @@ canvas.addEventListener("mouseup", (e) => {
   y = undefined;
 });
 
-
-function start(event){
+function start(event) {
   draw(event.offsetX, event.offsetY);
 }
-
 
 c.fillStyle = "red";
 
@@ -77,16 +79,12 @@ document
   );
 
 let pencil = () => {
-  canvas.addEventListener("mousemove",start);
-  document.getElementById("container").style.gridTemplateColumns = "10% 90%";
+  canvas.addEventListener("mousemove", start);
+
 
   penSize = "1";
   c.fillStyle = "black";
-  var x = document.getElementById("drawing-colors");
-  var fill = document.getElementById("fill");
- // console.log("x:", x);
- 
-  
-  
-  
+
 };
+
+
