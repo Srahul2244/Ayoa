@@ -1,0 +1,1052 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+#beDifferent{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+#beDifferent h1>b{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+#beDifferent p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#inputDiv{
+    width: 55%;
+    border: 10px solid #00a9fd2c;;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 35px;
+}
+
+#emailInput{
+    height: 50px;
+    width: 60%;
+    border: none;
+}
+#getStartedButton{
+    width: 40%;
+    background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#getStartedButton:hover{
+    width: 40%;
+    background-image:  linear-gradient(to bottom, #0395df, #015b88e1);
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#mainPoster{
+    margin: auto;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+
+#smallIcons{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+#emptyBox{
+    position: absolute;
+    position: relative;
+    width: 70%;
+    height: 680px;
+    background-color: #c6e6f694;
+    border-radius: 50px;
+    z-index:-1;
+    top: 670px;
+    margin-top: -500px;
+    margin-left: 20px;
+
+}
+
+
+#howDoesAyoaHelp{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+#howDoesAyoaHelp video{
+    width: 50%;
+    height: fit-content;
+    margin-top: 130px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 30px;
+}
+
+
+#howDoesAyoaHelp  h1{
+    font-size: 40px;
+    font-style: bold;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: 1000;
+    font-family: sans-serif;
+}
+#howDoesAyoaHelp  h1>span{
+    font-size: 40px;
+    font-style: bold;
+    margin-top: 50px;
+    font-weight: 1000;
+    font-family: sans-serif;
+    color: white;
+    background-color: #0395df;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+#howDoesAyoaHelp p>span{
+    color: #057ebb;
+}
+#thickDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#howDoesAyoaHelp p{
+    width: 70%;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 25px;
+}
+#howDoesAyoaHelp #clickText{
+    color: #006b92;
+    font-weight: 1000;
+    cursor: pointer;
+}
+#howDoesAyoaHelp #clickText:hover{
+    color: #a4a4a4;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+
+
+#findOutMoreButton{
+    height: 46px;
+    width: 200px;
+    background-color: #07a9fa;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ #findOutMoreButton:hover{
+    height: 46px;
+    width: 200px;
+    background-color: #0576af;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+
+ }
+ #howDoesAyoaHelp button{
+    margin-left: 50px;
+    
+ }
+
+#chooseCreativityHeading{
+    margin-top: 100px;
+    text-align: center ;
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+    margin-top: 200px;
+    font-weight: 2000;
+}
+
+
+
+ #compritionDiv{
+    width: 90%;
+    display: flex;
+    gap: 25px;
+    margin: auto;
+ }
+ #compritionDiv>div{
+    /* border: 1px solid rgba(128, 128, 128, 0.383); */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: left;
+ }
+
+
+
+ #seeFullFeatureBTN{
+    height: 46px;
+    width: 300px;
+    background-color: #07a9fa;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+ }
+ #seeFullFeatureBTN:hover{
+    height: 46px;
+    width: 300px;
+    background-color: #0576af;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 20px;
+
+ }
+ #chooseCreativityHeadingMainDiv{
+    margin: auto;
+    text-align: center;
+ }
+
+
+ #flexibility{
+    text-align: center;
+    margin-top: 120px;
+ }
+#flexibility h1{
+    font-size: 55px;
+    font-weight: 900;
+}
+#flexibility h1>span{
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(238, 44, 102) ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#flexibility p{
+    width: 50%;
+    margin: auto;
+}
+
+
+#designedForDiversity{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+    gap: 25px;
+
+}
+#designedForDiversity>img{
+    width: 50%;
+
+}
+
+#designedForDiversity>div>div{
+    display: flex;
+    gap: 40px;
+}
+
+#designedForDiversity>div>div img{
+    width: 50%;
+    margin-top: 30px;
+}
+#designedForDiversity>div>div{
+    width: 60%;
+    height: 100px;
+}
+#designedForDiversity h1{
+    font-size: 45px;
+    font-weight: 1000;
+
+}
+#designedForDiversity p{
+    font-size: 18px;   
+}
+
+
+/* RESPONSIVE */
+
+
+
+@media all and (min-width:700px) and (max-width:1000px) {
+
+/* be different work visual */
+
+#beDifferent{
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+#beDifferent h1>b{
+    width: 70%;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+#beDifferent p{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#inputDiv{
+    width: 55%;
+    background-color: #00a9fd2c;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 35px;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+
+#emailInput{
+    height: 50px;
+    width: 90%;
+    font-size: 20px;
+    padding-left: 20px;
+
+    border: none;
+}
+#getStartedButton{
+    width: 45%;
+    height: 60px;
+    background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#getStartedButton:hover{
+    width: 45%;
+    height: 60px;
+    background-image:  linear-gradient(to bottom, #0395df, #015b88e1);
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#mainPoster{
+    margin: auto;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+#smallIcons{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+/* /////////////////// */
+
+#emptyBox{
+    position: absolute;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 1200px;
+    background-color: #c6e6f694;
+    border-radius: 50px;
+    z-index:-1;
+    top: 670px;
+    margin-top: -550px;
+
+}
+
+
+#howDoesAyoaHelp{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-right: 70px;
+}
+#howDoesAyoaHelp video{
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    margin-top: 130px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: flex;
+    border-radius: none;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+
+}
+
+
+#howDoesAyoaHelp  h1{
+    text-align: center;
+    font-size: 40px;
+    font-style: bold;
+    margin-top: -470px;
+    font-weight: 1000;
+    font-family: sans-serif;
+}
+#howDoesAyoaHelp  h1>span{
+    font-size: 40px;
+    font-style: bold;
+    margin-top: 50px;
+    font-weight: 1000;
+    font-family: sans-serif;
+    color: white;
+    background-color: #0395df;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+#howDoesAyoaHelp p>span{
+    color: #057ebb;
+}
+#thickDiv{
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 60px;
+}
+#thickDiv span{
+    color: #32b6f8;
+    font-size: 25px;
+  
+}
+
+
+#ayoahelpPara{
+    text-align: center;
+    width: 700px;
+}
+
+#thickDiv p{
+    margin-top: -49px;
+    text-align: center;
+}
+#howDoesAyoaHelp p{
+    width: 93%;
+    /* margin-left: 80px; */
+    font-size: 18px;
+    line-height: 25px;
+    height: 70px;
+
+}
+#howDoesAyoaHelp #clickText{
+    color: #006b92;
+    font-weight: 1000;
+    
+    cursor: pointer;
+}
+#howDoesAyoaHelp #clickText:hover{
+    color: #a4a4a4;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+
+
+#findOutMoreButton{
+    height: 46px;
+    width: 200px;
+    background-color: #07a9fa;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ #findOutMoreButton:hover{
+    height: 46px;
+    width: 200px;
+    background-color: #0576af;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+
+ }
+ #howDoesAyoaHelp button{
+    margin-left: 50px;
+    
+ }
+
+
+
+/* ////////////       ANOTHER      /////////////// */
+
+#chooseCreativityHeading{
+    margin-top: 100px;
+    text-align: center ;
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    font-weight: 2000;
+}
+
+#compritionDiv{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: auto;
+ }
+ #compritionDiv>div{
+    margin: auto;
+    /* border: 1px solid rgba(128, 128, 128, 0.383); */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: left;
+    width: 60%;
+    text-align: center;
+ }
+
+
+
+ #seeFullFeatureBTN{
+    height: 46px;
+    width: 300px;
+    background-color: #07a9fa;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+ }
+ #seeFullFeatureBTN:hover{
+    height: 46px;
+    width: 300px;
+    background-color: #0576af;
+    color: white;
+    border: none;
+    /* font-size: 25px; */
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 20px;
+
+ }
+ #chooseCreativityHeadingMainDiv{
+    margin: auto;
+    text-align: center;
+ }
+
+
+
+
+
+
+/* //////////////////////////////////// */
+
+
+
+#designedForDiversity{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+    gap: 25px;
+
+}
+#designedForDiversity>img{
+    width: 100%;
+
+}
+
+#designedForDiversity>div>div{
+    display: flex;
+    gap: 70px;
+}
+
+#designedForDiversity>div>div img{
+    width:60%;
+    margin-top: 30px;
+}
+#designedForDiversity>div>div{
+    width: 40%;
+    height: 100px;
+    margin-left: 110px;
+    margin-bottom: 60px;
+}
+#designedForDiversity h1{
+    font-size: 45px;
+    font-weight: 1000;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+}
+#designedForDiversity p{
+    font-size: 20px;
+    width: 90%;
+    text-align: center;   
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+#flexibility p{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media all and (min-width:358px) and (max-width:701px) {
+
+    /* be different work visual */
+    
+    #beDifferent{
+        width: 95%;
+        text-align: center;
+        margin: auto;
+        margin-top: 100px;
+    }
+    #beDifferent h1>b{
+        width: 70%;
+        font-size: 40px;
+        font-weight: 900;
+        font-family: sans-serif;
+        margin-left: 30px;
+    }
+    #beDifferent p{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    
+    #inputDiv{
+        width: 90%;
+        background-color: #00a9fd2c;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 10px;
+        margin: auto;
+        font-size: 35px;
+        border: none;
+        justify-content: space-between;
+        align-items: center;
+        height: 130px;
+    }
+    
+    #emailInput{
+        height: 50px;
+        width: 90%;
+        font-size: 20px;
+        padding-left: 20px;
+    
+        border: none;
+    }
+    #getStartedButton{
+        width: 55%;
+        height: 50px;
+        background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+    #getStartedButton:hover{
+        width: 45%;
+        height: 60px;
+        background-image:  linear-gradient(to bottom, #0395df, #015b88e1);
+        border: none;
+        color: white;
+        font-size: 25px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    #mainPoster{
+        margin: auto;
+        width: 100%;
+        margin-top: 50px;
+    
+    }
+    
+    #smallIcons{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    
+    
+    
+    
+    /* /////////////////// */
+    
+    #emptyBox{
+        position: absolute;
+        position: relative;
+        width: 100%;
+        margin: auto;
+        height: 1100px;
+        background-color: #c6e6f694;
+        border-radius: 50px;
+        z-index:-1;
+        top: 560px;
+        margin-top: -300px;
+    
+    }
+    
+    #howDoesAyoaHelp p{
+        margin-left: 36px;
+    }
+    
+    #howDoesAyoaHelp{
+        
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        /* margin-right: 90px; */
+        margin-left: -17px;
+    }
+    #howDoesAyoaHelp video{
+        width: 90%;
+        margin: auto;
+        height: fit-content;
+        margin-top: 130px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        display: flex;
+        border-radius: none;
+        justify-content: center;
+        align-items: center;
+        margin: 45px;
+    
+    }
+    
+    
+    #howDoesAyoaHelp  h1{
+        text-align: center;
+        font-size: 30px;
+        font-style: bold;
+        margin-top: -470px;
+        font-weight: 1000;
+        font-family: sans-serif;
+        line-height: 60px;
+    }
+    #howDoesAyoaHelp  h1>span{
+        font-size: 35px;
+        font-style: bold;
+        margin-top: 50px;
+        font-weight: 1000;
+        font-family: sans-serif;
+        color: white;
+        background-color:#0395df ;
+        padding-left: 90px;
+        padding-right: 90px;
+        margin-top: 30px;
+
+
+    }
+    #howDoesAyoaHelp p>span{
+        color: #057ebb;
+    }
+    #thickDiv{
+    
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        margin-top: 130px;
+    }
+    #thickDiv span{
+        color: #32b6f8;
+        font-size: 25px;
+      
+    }
+    
+    
+    #ayoahelpPara{
+        text-align: center;
+        width: 700px;
+    }
+    
+    #thickDiv p{
+        margin-top: -49px;
+        text-align: center;
+    }
+    #howDoesAyoaHelp p{
+        width: 93%;
+        /* margin-left: 80px; */
+        font-size: 18px;
+        line-height: 25px;
+        height: 70px;
+    
+    }
+    #howDoesAyoaHelp #clickText{
+        color: #006b92;
+        font-weight: 1000;
+        
+        cursor: pointer;
+    }
+    #howDoesAyoaHelp #clickText:hover{
+        color: #a4a4a4;
+        font-weight: 1000;
+        cursor: pointer;
+    }
+    
+    
+    
+    #findOutMoreButton{
+        height: 46px;
+        width: 200px;
+        background-color: #07a9fa;
+        color: white;
+        border: none;
+        /* font-size: 25px; */
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: 800;
+     }
+     #findOutMoreButton:hover{
+        height: 46px;
+        width: 200px;
+        background-color: #0576af;
+        color: white;
+        border: none;
+        /* font-size: 25px; */
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 800;
+        font-size: 20px;
+    
+     }
+     #howDoesAyoaHelp button{
+        margin-left: 50px;
+        
+     }
+    
+    
+    
+    /* ////////////       ANOTHER      /////////////// */
+    
+    #chooseCreativityHeading{
+        margin-top: 100px;
+        text-align: center ;
+        font-size: 30px;
+        width: 90%;
+        margin: auto;
+        margin-top: 150px;
+        font-weight: 900;
+    }
+    
+    #compritionDiv{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin: auto;
+     }
+     #compritionDiv>div{
+        margin: auto;
+        /* border: 1px solid rgba(128, 128, 128, 0.383); */
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: 10px;
+        padding: 40px;
+        margin-top: 50px;
+        text-align: left;
+        width: 60%;
+        text-align: center;
+     }
+    
+    
+    
+     #seeFullFeatureBTN{
+        height: 46px;
+        width: 300px;
+        background-color: #07a9fa;
+        color: white;
+        border: none;
+        /* font-size: 25px; */
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 40px;
+     }
+     #seeFullFeatureBTN:hover{
+        height: 46px;
+        width: 300px;
+        background-color: #0576af;
+        color: white;
+        border: none;
+        /* font-size: 25px; */
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 40px;
+        font-size: 20px;
+    
+     }
+     #chooseCreativityHeadingMainDiv{
+        margin: auto;
+        text-align: center;
+     }
+    
+    
+    
+    
+    
+    
+    /* //////////////////////////////////// */
+    
+    
+    
+    #designedForDiversity{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        margin-top: 80px;
+        gap: 25px;
+    
+    }
+    #designedForDiversity>img{
+        width: 100%;
+    
+    }
+    
+    #designedForDiversity>div>div{
+        display: flex;
+        gap: 10px;
+    }
+    
+    #designedForDiversity>div>div img{
+        width: 45%;
+        margin-top: 30px;
+    }
+    #designedForDiversity>div>div{
+        width: 90%;
+        margin-bottom: 60px;
+    }
+    #designedForDiversity h1{
+        font-size: 26px;
+        font-weight: 900;
+        width: 90%;
+        font-family: sans-serif;
+        margin: auto;
+        text-align: center;
+    
+    }
+    #designedForDiversity p{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;   
+        margin: auto;
+        padding-top: 30px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #flexibility p{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    
+    
+    
+}
