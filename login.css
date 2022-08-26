@@ -22,13 +22,12 @@ input[type="password"]{
 button{
     font-size: 15x;
     margin-bottom: 15px;
-    padding: 10px 130px;
+    padding: 4px 110px;
     background: #1794ff;
     border: 0ch;
     border-radius: 10px;
-}
-#login>p:nth-child(4){
-    color: lightslategrey;
+    font-size: 30px;
+    color: #fff;
 }
 span>a{
     color:#1794ff;
@@ -36,4 +35,16 @@ span>a{
 }
 img{
     width:40%;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 500px){
+    #login{
+        text-align: center;
+        width:80%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    
+}
+p{
+    color: grey;
 }
