@@ -65,6 +65,7 @@ nav ul li:hover{
 } */
 
 .bgContainer{
+    /* width: 100%; */
     width: 100%;
     height: auto;
     /* background-color: black; */
@@ -87,7 +88,7 @@ nav ul li:hover{
 #topContent{
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 90%;
     margin: auto;
     margin-top: 30px;
 }
@@ -114,7 +115,7 @@ nav ul li:hover{
     /* font-size: 49px; */
 }
 #nextContent > div{
-    width: 62%;
+    width: 80%;
     margin: auto;
     font-size: 20px;
     font-weight: 20px;
@@ -126,7 +127,7 @@ nav ul li:hover{
 /* Types of neurodiversity */
 
 #typesOfNeurodiversity{
-    width: 61%;
+    width: 90%;
     margin: auto;
     text-align: center;
     font-size: 20px;
@@ -163,16 +164,20 @@ nav ul li:hover{
 #nVSn  h1{
     color: orange;
     margin-bottom: 50px;
-    font-size: 45px;
+    font-size: 65px;
 }
 #nVSn  h1 span{
     color: black;
-    font-size: 45px;
+    font-size: 65px;
 }
 #nVSn > div{
-    width: 60%;
+    width: 90%;
     margin: auto;
     padding: 40px;
+}
+#nVSn p{
+    width: 80%;
+    margin: auto;
 }
 
 
@@ -215,4 +220,267 @@ nav ul li:hover{
 #howDoesAyoaHelp p>span{
     color: black;
     font-size: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////// */
+
+@media all and (min-width:700px) and (max-width:1000px) {
+
+    #topContent{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #nextContent{
+        font-size: 25px;
+    }
+
+
+
+
+
+    #howDoesAyoaHelp{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        color: #555454;
+        font-size: 20px;
+        justify-content: space-between;
+        line-height: 40px;
+        margin-bottom: 100px;
+    
+    }
+    #howDoesAyoaHelp>div{
+        width: 90%;
+    }
+    #howDoesAyoaHelp>img{
+        width: 45%;
+        margin-top: 30px;
+        height: fit-content;
+        margin-top: 50px;
+    }
+    #howDoesAyoaHelp>div>h1{
+        color: #00a9fd;
+    }
+    #someHoneTagOne{
+        text-align: center;
+        font-size: 50px;
+        font-style: bold;
+        margin-top: 80px;
+    }
+    #howDoesAyoaHelp p{
+        margin-top: -35px;
+    }
+    #threeBythree{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    
+    #nVSn{
+        background-color: rgb(251, 241, 223);
+        text-align: center;
+        color: #555454;
+        font-size: 20px;
+    }
+    #nVSn  h1{
+        color: orange;
+        margin-bottom: 50px;
+        font-size: 65px;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    #nVSn  h1 span{
+        color: black;
+        font-size: 65px;
+    }
+    #nVSn > div{
+        width: 90%;
+        margin: auto;
+        padding: 40px;
+    }
+    #nVSn p{
+        width: 55%;
+        margin: auto;
+        font-size: 25px;
+    }
+
+
+
+    #howDoesAyoaHelp{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        color: #555454;
+        font-size: 20px;
+        margin-bottom: 100px;
+    
+    }
+    #howDoesAyoaHelp>div{
+        width: 90%;
+    }
+    #howDoesAyoaHelp>img{
+        width: 100%;
+    }
+
+
+
+
+   
+}
+
+
+
+
+
+/* //////////////////// */
+
+@media all and (min-width:356px) and (max-width:701px) {
+
+    #topContent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+    }
+    #topContent h1{
+        margin-left: 50px;
+    }
+    #topContent p{
+        font-size: 20px;
+        /* width:350px; */
+        width: 80%;
+        margin-left: auto;
+        text-align: right;
+        
+    }
+    #nextContent{
+        font-size: 20px;
+    }
+
+
+
+
+
+    #howDoesAyoaHelp{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        color: #555454;
+        font-size: 20px;
+        justify-content: space-between;
+        line-height: 40px;
+        margin-bottom: 100px;
+    
+    }
+    #howDoesAyoaHelp>div{
+        width: 90%;
+    }
+    #howDoesAyoaHelp>img{
+        width: 45%;
+        margin-top: 30px;
+        height: fit-content;
+        margin-top: 50px;
+    }
+    #howDoesAyoaHelp>div>h1{
+        color: #00a9fd;
+    }
+    #someHoneTagOne{
+        text-align: center;
+        font-size: 50px;
+        font-style: bold;
+        margin-top: 80px;
+    }
+    #howDoesAyoaHelp p{
+        margin-top: -35px;
+    }
+    #threeBythree{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    
+    #nVSn{
+        background-color: rgb(251, 241, 223);
+        text-align: center;
+        color: #555454;
+        font-size: 20px;
+    }
+    #nVSn  h1{
+        color: orange;
+        margin-bottom: 50px;
+        font-size: 35px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    #nVSn  h1 span{
+        color: black;
+        font-size: 35px;
+    }
+    #nVSn > div{
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+    #nVSn p{
+        width: 65%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+
+
+    #howDoesAyoaHelp{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        color: #555454;
+        font-size: 20px;
+        margin-bottom: 100px;
+    
+    }
+    #howDoesAyoaHelp>div{
+        width: 100%;
+    }
+    #howDoesAyoaHelp>img{
+        width: 100%;
+    }
+    
+    
+    #whatIsNeurodiversity{
+        color: #00a9fd;
+        font-size: 40px;
+
+    }
+    #whatIsNeurodiversity>span{
+        font-size: 40px;
+        color: white;
+        /* font-size: 49px; */
+    }
+    #howDoesAyoaHelp p{
+        margin-top: 30px;
+        line-height: 27px;
+    }
+
+
+
+   
 }
