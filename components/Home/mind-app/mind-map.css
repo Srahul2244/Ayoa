@@ -1,0 +1,144 @@
+*,*::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#navbar{
+    /* width: max-content; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 230, 238);
+   
+}
+#navbar>div{
+    padding: 10px;
+    display: flex;
+    gap:20px;
+   color: rgb(60, 63, 67);
+    border: 10px;
+}
+#navbar a{
+position: relative;
+width: 50px;
+height:50px;
+border-radius: 10px;
+background-image:var(--icons);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 50%;
+text-decoration: none;
+font-family: sans-serif;
+color: rgb(16, 15, 15);
+}
+#navbar a:hover,#navbar a:focus, #navbar a:active{
+background-color: #eaeaef;
+}
+#navbar a span{
+padding: 10px;
+border-radius:6px;
+background-color: #303060;
+position: absolute;
+bottom:150%;
+top:80%;
+transform-origin:bottom;
+--scale: 0;
+opacity: 0;
+transform:translateX(-50%) scale(var(--scale));
+transition: opacity 0.15s ease, transform 0.15s ease;
+}
+#navbar a:hover span ,#navbar a:focus span,#navbar a:active span{
+--scale: 1;
+opacity: 1;
+}
+#navbar a span{
+content:"";
+position:absolute;
+width:14px;
+height:14px;
+border-radius: 2px;
+background-color:inherit;
+left:0;
+top:80%;
+transform:translate(-40%,-50%) 
+}
+
+#container{
+border:2px solid rgb(26, 25, 25);
+width: 100%;
+height:700px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#btn{
+font-size:80px;
+border: 1px solid black;
+background-color: green;
+color: white;
+border-radius: 100%;
+}
+#btn1{
+font-size:80px;
+border: 1px solid black;
+background-color: green;
+color: white;
+border-radius: 100%;
+}
+#text{
+border: 2px solid black;
+height: 300px;
+border-radius:40px;
+}
+#btn2{
+border: 1px solid black;
+height:30px;
+width:30px;
+border-radius: 100%;
+
+}
+#btn2:hover{
+background-color:cornflowerblue ;
+}
+.hr{
+width:100px;
+height:2px;
+border:1px solid black;
+ display: flex;
+margin: auto;
+
+}
+#inp{
+border: 2px solid black;
+width: 250px;
+height:60px;
+display: flex;
+}
+.flex{
+display: flex;
+justify-content:center;
+align-items: center;
+
+}
+#left{
+display: flex;
+}
+#right{
+display: flex;
+}
+#opt{
+display: flex;
+height: 120px;
+width: 400px;
+justify-content: space-between;
+border: 1px solid black;
+border-radius:10px;
+}
+select{
+height:50px;
+width:100px; 
+border: none;  
+}
+select>option{
+font-size: 20px;
+font-family:black;
+}
