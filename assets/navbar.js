@@ -11,27 +11,27 @@ function navbar(){
             <div class="nav-links">
                 <ul>
                     <li class="nav-link" style="--i: .6s">
-                        <a href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="nav-link" style="--i: .85s">
                         <a href="#">Products<i class="fas fa-caret-down"></i></a>
                         <div class="dropdown">
                             <ul>
                                 <li class="dropdown-link">
-                                    <a href="#">Ayoa Mind Map</a>
+                                    <a href="./components/products/mind map page/MindMap.html">Ayoa Mind Map</a>
                                 </li>
                                 <li class="dropdown-link">
-                                    <a href="#">Ayoa Task</a>
+                                    <a href="./components/products/task page/ayoa_task.html">Ayoa Task</a>
                                 </li>
                                 <li class="dropdown-link">
-                                    <a href="#">Ayoa Ultimate</i></a>
+                                    <a href="./components/products/ultimate page/ultimate.html">Ayoa Ultimate</a>
                                 </li>
                                 <div class="arrow"></div>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-link" style="--i: 1.35s">
-                        <a href="#">Inclusivity</a>
+                        <a href="./components/inclusivity/inclusivity.html">Inclusivity</a>
                     </li>
                     <li class="nav-link" style="--i: 1.1s">
                         <a href="#">Resources<i class="fas fa-caret-down"></i></a>
@@ -54,13 +54,13 @@ function navbar(){
                         </div>
                     </li>
                     <li class="nav-link" style="--i: 1.35s">
-                        <a href="#">Pricing</a>
+                        <a href="./components/pricing/pricing.html">Pricing</a>
                     </li>
                 </ul>
             </div>
 
             <div class="log-sign" style="--i: 1.8s">
-                <a href="#" class="btn transparent">Log in</a>
+                <a href="./components/login/login.html" class="btn transparent">Log in</a>
             </div>
         </div>
 
