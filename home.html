@@ -22,7 +22,7 @@
 
         <div id="inputDiv">
             <input type="email" placeholder="Enter your email" id="emailInput" >
-            <button id="getStartedButton">Get started</button>
+            <a href="./login.html"><button id="getStartedButton">Get started</button></a>
         </div>
 
     </div>
@@ -114,7 +114,7 @@
         
     </div>
     
-    <button id="seeFullFeatureBTN" >See full feature comparison</button>
+    <a href="./login.html"><button id="seeFullFeatureBTN" >See full feature comparison</button></a>
 
 
 
@@ -164,12 +164,14 @@
 
 
 
-
+    <div id="footer"></div>
 </body>
 <script type="module">
     let nav=document.querySelector("#navbar");
     import navbar from './components/navbar.js'
     nav.innerHTML=navbar();
+    let foot=document.querySelector("#footer");
+    import footer from './components/footer.js'
+    foot.innerHTML=footer();
   </script>
-  <script src="./Scripts/nav.js"></script>
-</html>
+<script src="./ayoa_task.js"></script>

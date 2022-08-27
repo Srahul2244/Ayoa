@@ -21,6 +21,10 @@
     margin-bottom: 30px;
     font-size: 20px;
 }
+#beDifferent button{
+    width: 200px;
+    height: 50px;
+}
 
 #inputDiv{
     width: 55%;
@@ -54,6 +58,7 @@
     font-size: 25px;
     border-radius: 10px;
     cursor: pointer;
+    width: 200px;
 }
 
 #mainPoster{
