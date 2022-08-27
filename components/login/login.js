@@ -1,30 +1,40 @@
-let submit = () => {
-  let signupls = JSON.parse(localStorage.getItem("signup")) || [];
-  let signinls = [];
-  let email = document.getElementById("email").value;
-  let password = document.getElementById("password").value;
-  if (email == "" || password == "") {
+let form = document.querySelector("form");
+form.addEventListener("submit", subfunc);
+
+let signupls = JSON.parse(localStorage.getItem("signup")) || [];
+
+let flag = false;
+function subfunc(e) {
+  e.preventDefault();
+  if (form.email.value == "" || form.password.value == "") {
     alert("Fill the form");
-  }
-  if (signupls.length <= 0) {
+  } else {
+    let email = form.email.value;
+    let password = form.password.value;
+    let obj = {
+      Email: email,
+      Password: password,
+    };
+
+    if (signupls.length <= 0) {
       alert("User Data is not found plese Register");
       window.location.href = "signup.html";
-  } else if (signupls.length >= 1) {
-    signupls.forEach((el) =>{
-      console.log(signupls);
-      if (password === el.password && email === el.email) {
-        signinls.push(el);
-        localStorage.setItem("signin", JSON.stringify(signinls));
-        alert("Login Succeccfully Completed");
-        window.location.href = "index.html";
-      } else if (email !== el.email || password !== el.password) {
-        console.log(email,el.email,password,el.password)
-        alert("wrong Details");
+    } else if (signupls.length >= 1) {
+      for(let i=0;i<signupls.length;i++) {
+        if (obj.Email === signupls[i].email && obj.Password === signupls[i].password) {
+          flag = true;
+          alert("Login Succeccfully Completed");
+          localStorage.setItem("flag", JSON.stringify(flag));
+          return window.location.href = "index.html";
+        } else {
+          flag=false;
+        }
       }
-    });
+    }
   }
-
+  if(flag===false){
+    alert("Invalid Data")
+  }
 }
 
-
-
+console.log(signupls);
