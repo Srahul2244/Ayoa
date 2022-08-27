@@ -98,7 +98,7 @@ grid-template-columns: repeat(2,1fr);
     border:0ch;
     border-radius: 10px;
 }
-@media only screen and (min-device-width: 500px) and (max-device-width: 850px){
+@media only screen and (min-device-width:400px) and (max-device-width: 1024px){
     #container1>div{
         display: grid;
         grid-template-columns: repeat(2,1fr);
