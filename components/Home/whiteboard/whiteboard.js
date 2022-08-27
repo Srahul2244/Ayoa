@@ -3,9 +3,7 @@ let penSize = 10;
 let isDrawing;
 let x;
 let y;
-var X = 0;
-var Y = 0;
-var str = 0;
+
 
 var canvas = document.querySelector("canvas");
 c = canvas.getContext("2d");
