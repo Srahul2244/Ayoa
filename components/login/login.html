@@ -10,15 +10,18 @@
     <div id="login">
         <img src="https://auth.ayoa.com/images/ayoa-icon.png" alt="">
         <p>Sign in to Ayoa</p>
-        <input type="email" id="email" placeholder="Email"><br>
-        <input type="password" id="password" placeholder="Password"><br>
-        <button id="submit">Submit</button>
+        <form action="">
+            <input type="email" placeholder="Enter your Mail Id" id="email"><br>
+             <input type="password" name="" placeholder="Enter Password"  id="password"><br>
+             <input type="submit" value="Submit">
+        </form>
         <hr>
-        <p>Don't have an account? <span><a href="./signup.html"> Sign up </a></span></p>
-        <p>Forgot password?</p>
-        <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
-        <hr>
+        <h5 style="color: rgba(0, 0, 0, 0.603);">Don't have an account? <span><a href="../signup/signup.html"> Sign up </a></span></h5>
+        <p id="someText">Forgot password?</p>
+        <p id="someText">This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</p>
+        <hr id="someLine">
         <img src="https://auth.ayoa.com/images/og_logo.svg" alt="">
     </div>
 </body>
+<script src="./login.js"></script>
 </html>

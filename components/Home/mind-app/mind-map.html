@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar With Tooltip On Hover</title>
     <link rel="stylesheet" href="mind-map.css">
+<<<<<<< HEAD
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&display=swap" rel="stylesheet">
+=======
+    <link rel="stylesheet" href="./../../../assets/Home_nav.css">
+>>>>>>> 7947106b284b271197344296b8b5fe773ca550c1
     
 </head>
 <body>
+    <div id="mindnav"></div>
     <nav id="navbar">
         <div id="public">
             <a href="#" class="ar"onclick="undo()" style="--icons:url(./icons/left.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Undo</span></a>
@@ -49,5 +54,12 @@
 <script src="./scripts/mind-map.js">
 </script>
 </html>
+
+<script type="module">
+    let nav = document.querySelector("#mindnav");
+    import home_nav from './../../../assets/Home_nav.js'
+    nav.innerHTML = home_nav();
+    console.log(home_nav())
+  </script>
 
 
