@@ -8,14 +8,13 @@ function footer(){
                 <li><a href="">Why Ayoa</a></li>
                 <li><a href="">About us</a></li>
                 <li><a href="">Pricing</a></li>
-                <li>Pricing</li>
                 <li>Integrations</li>
                 <li>Security</li>
             </ul>
             <h2>News</h2>
             <ul>
-                <li><a href="">Blog</a></li>
-                <li>Press</li>
+                <li><a href="./components/blog/Blog.html">Blog</a></li>
+                <li><a href="./components/press/press.html">Press</a></li>
                 <li>Roadmap</li>
                 <li>Release Notes</li>
             </ul>
@@ -23,8 +22,8 @@ function footer(){
         <div>
             <h2>Use Cases</h2>
             <ul>
-                <li><a href="">Task Management</a></li>
-                <li><a href="">Mind Mapping</a></li>
+                <li><a href="/components/products/task page/ayoa_task.html">Task Management</a></li>
+                <li><a href="/components/products/mind map page/MindMap.html">Mind Mapping</a></li>
                 <li>Project Management</li>
                 <li>Marketing</li>
                 <li>Finance</li>

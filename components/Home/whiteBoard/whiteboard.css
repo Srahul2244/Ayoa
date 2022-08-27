@@ -3,13 +3,14 @@ button {
   border-radius: 15px;
   background: #ff0000;
   color: #fff;
-  
+
   font: 1.2em "consolas";
   transition: transform 300ms ease;
   z-index: 2;
   cursor: -webkit-grab;
   cursor: grab;
 }
+
 button:active {
   transform: scale(0.95);
   cursor: -webkit-grabbing;
@@ -20,14 +21,17 @@ button:active {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
+
 canvas {
   background: #fff;
   width: 100%;
   border: 1px dashed;
 }
+
 a {
   display: inline-block;
   background: #69c;
@@ -37,20 +41,25 @@ a {
   margin-left: 40px;
   text-decoration: none;
 }
+
 .pen-tools {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: auto;
+ 
 }
-.pen-tools > div {
-  margin-left: 50px;
+
+.pen-tools>div {
+  margin-left: 30px;
 }
+
 p {
   text-align: center;
   margin: 10px 0 20px 0;
 }
+
 #clear {
   margin-left: 10px;
   background-color: red;
@@ -59,21 +68,25 @@ p {
   color: white;
   cursor: pointer;
 }
+
 .pen-size {
   display: flex;
   flex-direction: column;
   text-align: center;
   font-size: 16px;
-  margin-bottom: 5px;
+
 }
+
 .board {
   width: 100%;
   cursor: crosshair;
 }
+
 .drawing-colors {
   display: flex;
-  margin-bottom: 10px;
+
 }
+
 .color-circle {
   height: 20px;
   width: 20px;
@@ -83,6 +96,7 @@ p {
   cursor: -webkit-grab;
   cursor: grab;
 }
+
 .color-circle:active {
   cursor: -webkit-grabbing;
   cursor: grabbing;
@@ -103,6 +117,7 @@ p {
 .color-circle:nth-child(4) {
   background-color: yellow;
 }
+
 .color-circle:nth-child(5) {
   background-color: black;
 }
@@ -118,9 +133,12 @@ p {
 .color-circle:nth-child(8) {
   background-color: green;
 }
+
 .active {
   transform: scale(1.3);
+  z-index: -10;
 }
+
 #container {
   display: grid;
   grid-template-columns: 5% 95%;
@@ -132,13 +150,16 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 2px;
+  z-index: -10;
 }
+
 #feature button {
   width: 100%;
   background-color: white;
   color: rgb(20, 87, 204);
 }
-#feature > div {
+
+#feature>div {
   display: flex;
   flex-direction: column;
   gap: 20px;

@@ -33,7 +33,7 @@ input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover{
     width: 300px;
 }
 
-button{
+input[type="submit"]{
     margin-top: 25px;
     font-size: 15x;
     margin-bottom: 15px;
@@ -47,7 +47,7 @@ button{
     font-weight: 800;
     cursor: pointer;
 }
-button:hover{
+input[type="submit"]:hover{
     font-size: 15x;
     margin-bottom: 15px;
     padding: 10px 80px;

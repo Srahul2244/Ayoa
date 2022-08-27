@@ -8,12 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&display=swap" rel="stylesheet">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../index.css">
     <link rel="stylesheet" href="mind.css">
 </head>
 
 <body>
-    <div id="nav_container"></div>
+    <div id="navbar"></div>
 
     <div id="container">
         <div id="ayoaUltimateLogoDiv">
@@ -26,7 +26,7 @@
             you total freedom to express your thoughts is so many visual ways </p>
             <div id="getStatrforfreeDiv">
                 <input type="email" placeholder="Enter your emiail" id="getStatrforfreeInput">
-                <button id="getStatrforfreeButton">Get started for free</button>
+                <button id="getStatrforfreeButton"><a href="/components/signup/signup.html">Get started for free</a></button>
             </div>
         <img src="https://www.ayoa.com/wp-content/uploads/2021/01/official_mindmapsoftware_three.png" alt="banner">
 
@@ -40,7 +40,7 @@
 
         <div id="getStatrforfreeDiv">
                 <input type="email" placeholder="Enter your emiail" id="getStatrforfreeInput">
-                <button id="getStatrforfreeButton">Get started for free</button>
+                <button id="getStatrforfreeButton"><a href="/components/signup/signup.html">Get started for free</a></button>
             </div>
         <img src="https://www.ayoa.com/wp-content/uploads/2021/06/mm_floating_laptop_new.webp" alt="img">
     </div>
@@ -77,7 +77,7 @@
         
         <div id="getStatrforfreeDiv">
             <input type="email" placeholder="Enter your emiail" id="getStatrforfreeInput">
-            <button id="getStatrforfreeButton">Get started for free</button>
+            <button id="getStatrforfreeButton"><a href="/components/signup/signup.html">Get started for free</a></button>
         </div>
     </div>
     <div id='container4'>
@@ -90,7 +90,7 @@
                 With it being estimated that around 1 in 7 people are neurodivergent (meaning that the brain functions,
                 learns and processes information differently), mind maps are the flexible and inclusive tool that allow
                 everyone to work together to the best of their ability.</p>
-            <button>Learn more about neurodiversity</button>
+            <button><a href="/components/inclusivity/inclusivity.html">Learn more about neurodiversity</a></button>
         </div>
     </div>
     
@@ -111,9 +111,13 @@
                 <p><span>&#10004;</span> Mind map in full flow.</p>
             </div>
             <p>Take your mind maps to the next level using AI.*Available in <B>Ayoa Ultimate only.</B></p>
-            <button id="findOutMoreButton">Find out more</button>
+            <button id="findOutMoreButton"><a href="/components/products/ultimate page/ultimate.html">Find out more</a></button>
         </div>
-        <video src="https://www.ayoa.com/wp-content/uploads/2021/11/generateideas.mp4" loop autoplay ></video>
+        <video width="320" height="240" autoplay loop muted>
+            <source src="https://www.ayoa.com/wp-content/uploads/2021/11/generateideas.mp4" type="video/mp4" />
+            <source src="https://www.ayoa.com/wp-content/uploads/2021/11/generateideas.mp4" type="video/ogg" />
+            Your browser does not support the video tag.
+          </video>
     </div>
 
 
@@ -126,7 +130,7 @@
             allowfullscreen></iframe><br>
             <div id="getStatrforfreeDiv">
                 <input type="email" placeholder="Enter your emiail" id="getStatrforfreeInput">
-                <button id="getStatrforfreeButton">Get started for free</button>
+                <button id="getStatrforfreeButton"><a href="/components/signup/signup.html">Get started for free</a></button>
             </div>
     </div>
 
@@ -157,13 +161,18 @@
                 <p>Ayoa Ultimate is an all-in-one collaboration solution with chat and video.</p>
             </div>
         </div>
-        <button>Discover Ayoa Ultimate</button>
+        <button><a href="/components/products/ultimate page/ultimate.html" style="color: #fff;">Discover Ayoa Ultimate</a></button>
     </div>
+    <div id="footer"></div>
 </body>
-
-</html>
 <script type="module">
-    let nav = document.querySelector("#nav_container");
-    import navbar from './components/navbar.js'
-    nav.innerHTML = navbar();
-</script>
+    let nav=document.querySelector("#navbar");
+    import navbar from '../../../assets/navbar.js'
+    nav.innerHTML=navbar();
+    let foot=document.querySelector("#footer");
+    import footer from '../../../assets/footer.js'
+    foot.innerHTML=footer();
+  </script>
+  <script src="../../assets/nav.js"></script>
+</html>
+

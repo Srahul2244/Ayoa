@@ -7,7 +7,6 @@
 
 #container{
     background-image:  linear-gradient(to bottom, #03293c, #015b88);
-    margin-top: 100px;
     text-align: center;
     padding-top: 60px;
 }
@@ -20,6 +19,9 @@
     border-radius:20px ;
     color: white;
 
+}
+#getStatrforfreeButton a{
+    color: #fff;
 }
 
 #container>h1{
@@ -222,7 +224,8 @@ background: linear-gradient(60deg, rgba(44,90,132,1) 0%, rgba(8,70,111,1) 26%, r
     font-size: 30px;
     color: rgb(65, 64, 61);
     font-family: sans-serif;
-    margin-top: -25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-weight: 600;
 }
 #container6>div>div>h2{

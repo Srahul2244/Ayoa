@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&display=swap" rel="stylesheet">
         <title>Document</title>
     <link rel="stylesheet" href="ultimate.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../index.css">
 </head>
 
 <body>
@@ -57,7 +57,11 @@
         </div>
 
             <!-- <img src="https://www.ayoa.com/wp-content/uploads/2021/10/ayoa_computers@2x.png" alt="" id="productivityImg"> -->
-            <video src="https://www.ayoa.com/wp-content/uploads/2021/11/svg_animations_gi_2.mp4" alt="">
+            <video  autoplay loop muted>
+                <source src="https://www.ayoa.com/wp-content/uploads/2021/11/svg_animations_gi_2.mp4" type="video/mp4" />
+                <source src="https://www.ayoa.com/wp-content/uploads/2021/11/svg_animations_gi_2.mp4" type="video/ogg" />
+                Your browser does not support the video tag.
+              </video>
                 
     </div>
 
@@ -160,13 +164,16 @@
             </div>
         </div>
     </div>
-
+    <div id="footer"></div>
 </body>
 </html>
 
 <script type="module">
-    let nav=document.querySelector("#nav_container");
-    import navbar from './components/navbar.js'
+    let nav=document.querySelector("#navbar");
+    import navbar from '../../../assets/navbar.js'
     nav.innerHTML=navbar();
+    let foot=document.querySelector("#footer");
+    import footer from '../../../assets/footer.js'
+    foot.innerHTML=footer();
   </script>
-  <script src="./Scripts/nav.js"></script>
+  <script src="../../assets/nav.js"></script>
