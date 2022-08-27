@@ -15,3 +15,9 @@ document.getElementById("sidecheck").addEventListener("click", function () {
     document.querySelector("#logo").style.backgroundColor = "#002849";
   }
 });
+
+
+// let togal=()=>{
+//   let toggal=document.getElementById("togal");
+//   if(togal.style.dis)
+// }

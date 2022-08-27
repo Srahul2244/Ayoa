@@ -290,6 +290,12 @@ button:active {
 #mainSideDiv input {
   outline: none;
 }
+#togal{
+  height: 50px;
+  width: 80px;
+  position: absolute;
+  background-color: black;
+}
 
 @media all and (min-width: 401px) and (max-width: 870px) {
   #navtwo {
