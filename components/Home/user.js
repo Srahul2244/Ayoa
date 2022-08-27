@@ -1,9 +1,8 @@
 document.getElementById("sidecheck").addEventListener("click", function () {
-  
   let side = document.getElementById("sidecheck");
   let lab = document.getElementById("lab");
-  let button=document.querySelector("#menu");
-  let sidebar=document.querySelector("#sidebar")
+  let button = document.querySelector("#menu");
+  let sidebar = document.querySelector("#sidebar");
 
   if (side.checked == false) {
     sidebar.style.transform = "translateX(-270px)";
@@ -16,14 +15,10 @@ document.getElementById("sidecheck").addEventListener("click", function () {
   }
 });
 
+let data = JSON.parse(localStorage.getItem("signup"));
 
- function togal(){
-  let toggal=document.getElementById("chekdiv");
-  console.log(toggal.checked)
-  if(toggal.style.display=="block"){
-    toggal.style.display=="none";
-  }
-  else{
-    toggal.style.display=="block"
-  }
- }
+let name = document.querySelector("#localname");
+let name2 = document.querySelector("#lname");
+console.log(name);
+name.innerText = `Hello, ${data[0].name}`;
+name2.innerHTML = data[0].name;
