@@ -61,17 +61,13 @@ conta.append(div1);
 function credit(){
   window.location.href="./credit.html"
 }
-document.getElementById("notes").addEventListener("click",shre)
-var count=0;
-function shre(){
-  count++
-   let cont=document.getElementById("notes");
-  console.log(cont)
- console.log(count)
+
+function share(){
+  let cont=document.getElementById("prabhat");
+
   if(cont.style.display=="block"){
     cont.style.display="none";
   }else{
     cont.style.display="block";
   }
 }
-shre()

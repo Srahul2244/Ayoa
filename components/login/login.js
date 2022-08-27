@@ -1,76 +1,40 @@
-let submit = () => {
-  let signupls = JSON.parse(localStorage.getItem("signup")) || [];
-  let signinls = [];
-  
-  
-  let email = document.getElementById("email").value;
-  let password = document.getElementById("password").value;
-  if (email == "" || password == "") {
-     return alert("Fill the form");
-    }
+let form = document.querySelector("form");
+form.addEventListener("submit", subfunc);
+
+let signupls = JSON.parse(localStorage.getItem("signup")) || [];
+
+let flag = false;
+function subfunc(e) {
+  e.preventDefault();
+  if (form.email.value == "" || form.password.value == "") {
+    alert("Fill the form");
+  } else {
+    let email = form.email.value;
+    let password = form.password.value;
+    let obj = {
+      Email: email,
+      Password: password,
+    };
+
     if (signupls.length <= 0) {
       alert("User Data is not found plese Register");
       window.location.href = "../signup/signup.html";
-  }
-  //  else if (signupls.length >= 1) {
-
-
-    let flag=false;
-    
-    signupls.forEach((el) =>{
-      console.log(signupls);
-
-      if (password === el.password && email === el.email){
-        
-          signinls.push(el);
-  
-          localStorage.setItem("signin", JSON.stringify(signinls));
+    } else if (signupls.length >= 1) {
+      for(let i=0;i<signupls.length;i++) {
+        if (obj.Email === signupls[i].email && obj.Password === signupls[i].password) {
+          flag = true;
           alert("Login Succeccfully Completed");
-         return window.location.href = "user.html";
-        
-      } 
-      else{
-        flag=true;
+          localStorage.setItem("flag", JSON.stringify(flag));
+          return window.location.href = "user.html";
+        } else {
+          flag=false;
+        }
       }
-  
-    });
-
-
-    if(flag===true){
-      alert("Invalid data")
     }
-
-  // }
-
+  }
+  if(flag===false){
+    alert("Invalid Data")
+  }
 }
 
-
-
-// function submit() {
-
-//   let email = document.getElementById("email").value;
-//   let password = document.getElementById("password").value;
-
-// if (arr.length == 0) {
-//   alert("No user till now");
-//   return;
-// }
-
-// let obj = {
-//   email,
-//   password,
-// };
-
-// let isSignined = false;
-// arr.forEach(function (elem) {
-//   if (elem.email == obj.email && elem.password == obj.password) {
-//     isSignined = true;
-//     localStorage.setItem("signinData", JSON.stringify(elem));
-//     alert("Signin Successful");
-//     window.location.href = "index.html";
-//   }
-// });
-// if (isSignined == false) {
-//   alert("Signup first");
-// }
-// }
+console.log(signupls);
