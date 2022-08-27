@@ -48,6 +48,7 @@ a {
   align-items: center;
   width: 100%;
   margin: auto;
+ 
 }
 
 .pen-tools>div {
@@ -135,6 +136,7 @@ p {
 
 .active {
   transform: scale(1.3);
+  z-index: -10;
 }
 
 #container {
@@ -148,6 +150,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 2px;
+  z-index: -10;
 }
 
 #feature button {

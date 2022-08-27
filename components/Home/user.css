@@ -33,11 +33,11 @@ html {
   margin-top: 45px;
 }
 
-#sideone>span img {
+#sideone > span img {
   width: 110px;
 }
 
-#sideone>span {
+#sideone > span {
   display: flex;
   margin-left: 50px;
 }
@@ -48,15 +48,15 @@ html {
   padding-right: 10px;
 }
 
-#sideone>button,
-#sidetwo>button {
+#sideone > button,
+#sidetwo > button {
   margin-bottom: 30px;
   background-color: #002849;
   padding: 5px 0 5px 10px;
 }
 
-#sideone>button p,
-#sidetwo>button p {
+#sideone > button p,
+#sidetwo > button p {
   margin-left: 40px;
   margin-top: -25px;
   width: 150px;
@@ -68,11 +68,11 @@ html {
   flex-direction: column;
 }
 
-#sidetwo>button span {
+#sidetwo > button span {
   color: #fff;
 }
 
-#sidetwo>button:nth-child(1)>span {
+#sidetwo > button:nth-child(1) > span {
   background-color: orange;
   border-radius: 50%;
   padding: 5px;
@@ -162,7 +162,7 @@ button:active {
   margin-top: 56px;
 }
 
-#sidediv>div>div {
+#sidediv > div > div {
   display: flex;
   margin: 10px;
   padding: 10px;
@@ -170,12 +170,12 @@ button:active {
   border-radius: 13px;
 }
 
-#sidediv>div>div:active {
+#sidediv > div > div:active {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-#sidediv>div>div p {
+#sidediv > div > div p {
   padding: 10px 0 10px 10px;
 }
 
@@ -190,7 +190,7 @@ button:active {
   display: none;
 }
 
-#sidediv2>div>div {
+#sidediv2 > div > div {
   display: flex;
   margin: 10px;
   padding: 10px;
@@ -198,12 +198,12 @@ button:active {
   border-radius: 13px;
 }
 
-#sidediv2>div>div:active {
+#sidediv2 > div > div:active {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-#sidediv>div>div p {
+#sidediv > div > div p {
   padding: 10px 0 10px 10px;
 }
 
@@ -218,7 +218,7 @@ button:active {
   gap: 40px;
 }
 
-#mainSideDiv>div {
+#mainSideDiv > div {
   border: 1px soid black;
 }
 
@@ -231,6 +231,7 @@ button:active {
 
 #search_DIV {
   display: flex;
+
   align-items: center;
   gap: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -241,7 +242,7 @@ button:active {
 #create {
   height: 55px;
   width: 100px;
-  padding: 8px;
+  padding: 0px 2px 8px 2px;
   border-radius: 13px;
   color: #fff;
   z-index: -10;
@@ -255,13 +256,13 @@ button:active {
 
   -webkit-box-align: center;
   align-items: center;
-  padding: 0.65em 0.8em 0.65em 2.4em;
+  padding: 0.65em 0.8em 0.65em 0.65em;
   font-size: 14px;
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border: 1px solid rgb(190, 213, 229);
   border-radius: 0.6em;
-  width: 150px;
+  width: 200px;
   height: 1em;
   outline: none;
 }
@@ -273,13 +274,13 @@ button:active {
 
   -webkit-box-align: center;
   align-items: center;
-  padding: 0.65em 0.8em 0.65em 2.4em;
+  padding: 0.65em 0.8em 0.65em 0.65em;
   font-size: 14px;
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border: 1px solid rgb(190, 213, 229);
   border-radius: 0.6em;
-  width: 150px;
+  width: 200px;
   height: 1em;
 }
 
@@ -287,15 +288,57 @@ button:active {
   color: #fff;
 }
 
+.fa-plus {
+  display: none;
+}
+
 #mainSideDiv input {
   outline: none;
 }
-#togal{
-  height: 50px;
-  width: 80px;
-  position: absolute;
-  background-color: black;
+
+#togal {
+  height: 100px;
+  width: 400px;
+  
+ 
+  border-radius: 5px 5px 0 5px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+ 
+  
+
+  
 }
+#togal>div{
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  
+}
+#togal>div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+
+
+}
+#togal>div:nth-child(2){
+  padding: 8px;
+}
+#togal>div:nth-child(1)>span{
+  border-bottom: .1px solid rgb(112, 112, 112);
+  border-right: .1px solid rgb(182, 176, 176);
+  
+  padding: 10px 5px 10px 5px;
+
+}
+#togal a{
+  text-decoration: none;
+  color:rgb(112, 112, 112);
+  font-size: 14px;
+  font-weight: 600;
+ 
+}
+
 
 @media all and (min-width: 401px) and (max-width: 870px) {
   #navtwo {
@@ -304,25 +347,39 @@ button:active {
 
   .sid_p {
     display: none;
-
-
   }
-  .navbar{
+
+  .navbar {
     justify-content: space-between;
   }
 
+  #beta {
+    width: 40px;
+  }
 
+  #alpha {
+    width: 70px;
+  }
 
+  #create {
+    width: 60px;
+    height: 40px;
+    padding-top: 2px;
+  }
 
+  #btnCN {
+    display: none;
+  }
 
-
-
-
-
+  .fa-plus {
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+  }
 }
 
 /* Small screens */
-
 
 @media all and (min-width: 100px) and (max-width: 600px) {
   #navthree {
@@ -335,19 +392,38 @@ button:active {
 
   .sid_p {
     display: none;
-
-
   }
-  .navbar{
+
+  #btnCN {
+    display: none;
+  }
+
+  .fa-plus {
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #create {
+    width: 40px;
+    height: 30px;
+    padding-top: 2px;
+  }
+
+  .navbar {
     justify-content: space-between;
   }
 
+  #beta {
+    width: 30px;
+  }
 
+  #alpha {
+    width: 30px;
+  }
 
-
-
-
-
-
-
+  #searchItem {
+    width: 40px;
+  }
 }

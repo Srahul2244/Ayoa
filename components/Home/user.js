@@ -17,7 +17,13 @@ document.getElementById("sidecheck").addEventListener("click", function () {
 });
 
 
-// let togal=()=>{
-//   let toggal=document.getElementById("togal");
-//   if(togal.style.dis)
-// }
+ function togal(){
+  let toggal=document.getElementById("chekdiv");
+  console.log(toggal.checked)
+  if(toggal.style.display=="block"){
+    toggal.style.display=="none";
+  }
+  else{
+    toggal.style.display=="block"
+  }
+ }
