@@ -133,6 +133,8 @@ header {
   opacity: 0;
   pointer-events: none;
   transition: 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border: 1px solid #07a9fa2e;
 }
 
 .dropdown ul {
@@ -142,18 +144,19 @@ header {
 .dropdown-link > a {
   display: flex;
   background-color: #fff;
-  color: #3498db;
+  color: #0f86d6;
   font-weight: 600;
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
   align-items: center;
   justify-content: space-between;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .dropdown-link:hover > a {
-  background-color: #3498db;
-  color: #fff;
+  /* background-color: #3498db; */
+  color: rgba(57, 189, 255, 0.533);
 }
 
 .dropdown-link i {
@@ -206,23 +209,29 @@ header {
   display: none;
   align-items: center;
   justify-content: flex-end;
+  
 }
 
 .hamburger-menu {
-  width: 2.5rem;
+  width: 2.8rem;
   height: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  border-radius: 5px;
+  background-color: #07a9fa;
+  
 }
 
 .hamburger-menu div {
   width: 1.6rem;
   height: 3px;
+  margin-right: 10px;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: white;
   position: relative;
   z-index: 1001;
+
   transition: 0.5s;
 }
 
@@ -288,7 +297,7 @@ header {
   header {
     position: sticky;
     top: 0px;
-    background-color: #60b4df;
+    background-color: #fff;
     width: 100%;
     z-index: 1000;
   }
@@ -316,9 +325,11 @@ header {
     top: 3rem;
     left: 0;
     width: 100%;
-    background-color: #69bde7;
+    background-image:  linear-gradient(to left, #07a9facc, #003c5a );
+    
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
     justify-content: space-between;
     /* overflow-x: auto;
         overflow-y: auto; */
@@ -352,7 +363,8 @@ header {
 
   .nav-link > a {
     line-height: 1;
-    padding: 1.6rem 2rem;
+    padding: 1.2rem 1.2rem;
+    color: #fff;
   }
 
   .nav-link:hover > a {
