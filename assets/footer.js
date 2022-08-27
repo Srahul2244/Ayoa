@@ -4,17 +4,16 @@ function footer(){
         <div>
             <h2>Ayoa</h2>
             <ul>
-                <li><a href="">Features</a></li>
+                <li><a href="../components/features/features.html">Features</a></li>
                 <li><a href="">Why Ayoa</a></li>
                 <li><a href="">About us</a></li>
-                <li><a href="">Pricing</a></li>
-                <li>Pricing</li>
+                <li><a href="../components/pricing/pricing.html">Pricing</a></li>
                 <li>Integrations</li>
                 <li>Security</li>
             </ul>
             <h2>News</h2>
             <ul>
-                <li><a href="">Blog</a></li>
+                <li><a href="../components/resources/blog/Blog.html">Blog</a></li>
                 <li>Press</li>
                 <li>Roadmap</li>
                 <li>Release Notes</li>
@@ -23,8 +22,8 @@ function footer(){
         <div>
             <h2>Use Cases</h2>
             <ul>
-                <li><a href="">Task Management</a></li>
-                <li><a href="">Mind Mapping</a></li>
+                <li>Task Management</a></li>
+                <li>Mind Mapping</a></li>
                 <li>Project Management</li>
                 <li>Marketing</li>
                 <li>Finance</li>
@@ -39,9 +38,9 @@ function footer(){
         <div>
             <h2>Support</h2>
             <ul>
-                <li><a href="">Help</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="../components/Footer Pages/Help/help.html">Help</a></li>
+                <li><a href="../components/Footer Pages/Help/help.html">FAQ</a></li>
+                <li></li>
                 <li>Free Demo & Webinars</li>
                 <li>Where is Drop Task</li>
                 <li>How to Mind Map</li>
