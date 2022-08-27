@@ -8,7 +8,11 @@ function footer(){
                 <li><a href="">Why Ayoa</a></li>
                 <li><a href="">About us</a></li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <li><a href="">Pricing</a></li>
+=======
+                <li><a href="../components/pricing/pricing.html">Pricing</a></li>
+>>>>>>> bed788376ba2d25fa0b5c363af0145352682d422
 =======
                 <li><a href="../components/pricing/pricing.html">Pricing</a></li>
 >>>>>>> bed788376ba2d25fa0b5c363af0145352682d422
@@ -18,9 +22,12 @@ function footer(){
             <h2>News</h2>
             <ul>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <li><a href="">Blog</a></li>
                 <li><a href="">Press</a></li>
 =======
+=======
+>>>>>>> bed788376ba2d25fa0b5c363af0145352682d422
                 <li><a href="../components/resources/blog/Blog.html">Blog</a></li>
                 <li>Press</li>
 >>>>>>> bed788376ba2d25fa0b5c363af0145352682d422
