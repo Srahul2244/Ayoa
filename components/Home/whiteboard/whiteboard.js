@@ -87,4 +87,13 @@ let pencil = () => {
 
 };
 
+let erase = () => {
+  canvas.addEventListener("mousemove", start);
+
+
+  penSize = "10";
+  c.fillStyle = "white";
+
+};
+
 
