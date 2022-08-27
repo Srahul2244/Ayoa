@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./whyayoa.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav_container"></div>
+    <div id="main">
+        <div id="heading">
+            <h1>Because mind mapping is<br> just the beginning</h1>
+            <p>Supercharge your ideas with AI, brainstorm with your team, manage every aspect of your project through to fruition.</p>
+            <button>Get Started</button>
+            <img src="https://www.ayoa.com/wp-content/uploads/2022/07/ayoa_allinone_watch.webp" alt="image">
+        </div>
+        <div class="a">
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2018/05/cbsnews_logo.png">
+                <p>“The most unique twist on task management I’ve ever seen”</p>
+            </div>
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2018/05/techcrunch-logo.png">
+                <p>“Visually-oriented people – this layout boosts productivity”</p>
+            </div>
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2019/09/logo-lhacker.png">
+                <p>“Turns your tasks into an awesome venn diagram”</p>
+            </div>
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2019/09/logo-pcworld.png">
+                <p>“A more intuitive way to manage workloads”</p>
+            </div>
+        </div>
+        <div id="mid2">
+            <img src="https://www.ayoa.com/wp-content/uploads/2021/04/droptask_new_8_webp.webp" alt="">
+            <div>
+                <h1>Canvas view</h1>
+                <p>Our one-of-a-kind canvas view arranges your tasks across a dynamic hierarchy of bubbles. Easily spot where tasks are apportioned and what areas require your attention most.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div id="mid23">
+            <div>
+                <h1>Kanban workflow</h1>
+                <p>Structure your project’s tasks along any number of linear columns. Create custom categories based on areas, departments or outline the steps of a process – the choice is yours.</p>
+                <button>Learn More</button>
+            </div>
+            <img src="https://www.ayoa.com/wp-content/uploads/2021/04/droptask_new_7_webp.webp" alt="">
+        </div>
+
+        <div id="mid2">
+            <img src="https://www.ayoa.com/wp-content/uploads/2021/04/droptask_new_9_webp.webp" alt="">
+            <div>
+                <h1>Whiteboards</h1>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div id="and_so_on"><p>…and so on</p></div>
+        <div id="mid23">
+            <div>
+                <h1> <span>AI:</span> The future of ideas is here today</h1>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor.</p>
+            </div>
+            <video width="600" height="400" autoplay loop muted>
+                <source src="https://www.ayoa.com/wp-content/uploads/2021/11/svg_animations_gi_2.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+        </div>
+        <div id="divbutton">
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2021/11/aclickaway.svg">
+                <h2>Just a click away</h2>
+                <p>Pellentesque habitant morbi tristique senectus et netus.</p>
+            </div>
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2021/11/anyproblem.svg">
+                <h2>Solve any problem</h2>
+                <p>Pellentesque habitant morbi tristique senectus et netus.</p>
+            </div>
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2021/11/writersblock.svg">
+                <h2> Banish writer’s block</h2>
+                <p>Pellentesque habitant morbi tristique senectus et netus.</p>
+            </div>
+        </div>
+        <div id="button"><button>Learn More</button></div>
+        <div id="mid23">
+            <div>
+                <h1>More than just technology</h1>
+                <p>As world leaders in innovation, we’ve built Ayoa to be much more than just a tool for ideation and task management – it is a whole new way of achieving your goals.
+
+                    Through our global training and powerful software solutions, we are on a mission to educate, motivate and facilitate practical innovation into your everyday – so you can dare to achieve more.</p>
+            </div>
+            <video width="600" height="400" autoplay loop muted>
+                <source src="https://www.ayoa.com/wp-content/uploads/2021/11/generateideas.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+<script type="module">
+    let nav=document.querySelector("#nav_container");
+    import navbar from './components/navbar.js'
+    nav.innerHTML=navbar();
+    let foot=document.querySelector("#footer");
+    import footer from './components/footer.js'
+    foot.innerHTML=footer();
+  </script>
+  <script src="./Scripts/nav.js"></script>
+</html>
