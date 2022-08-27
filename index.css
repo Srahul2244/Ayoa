@@ -104,6 +104,7 @@ header {
 .nav-link > a {
   line-height: 3rem;
   color: rgb(0, 0, 0);
+  font-weight: 600;
   padding: 0 0.8rem;
   letter-spacing: 1px;
   font-size: 0.95rem;
@@ -142,6 +143,7 @@ header {
   display: flex;
   background-color: #fff;
   color: #3498db;
+  font-weight: 600;
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
   align-items: center;
@@ -600,7 +602,6 @@ header {
     width: 80%;
     text-align: center;
     margin: auto;
-    margin-top: 100px;
 }
 #beDifferent h1>b{
     font-size: 50px;
