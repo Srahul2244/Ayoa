@@ -1,18 +1,40 @@
-let submit = async () => {
-    let Email = document.getElementById("email").value;
-    let Password = document.getElementById("password").value;
-    let res = await fetch(`http://localhost:3000/signup`);
-    let data = await res.json();
-    check(data, Email, Password);
-  };
-  let check = (data, Email, Password) => {
-    for (let i = 0; i < data.length; i++) {
-      if (data[i].email === Email && Password == data[i].password) {
-        alert("Successfully loged. your redirecting into User page");
-        window.location.href="user.html"
-        return;
+let form = document.querySelector("form");
+form.addEventListener("submit", subfunc);
+
+let signupls = JSON.parse(localStorage.getItem("signup")) || [];
+
+let flag = false;
+function subfunc(e) {
+  e.preventDefault();
+  if (form.email.value == "" || form.password.value == "") {
+    alert("Fill the form");
+  } else {
+    let email = form.email.value;
+    let password = form.password.value;
+    let obj = {
+      Email: email,
+      Password: password,
+    };
+
+    if (signupls.length <= 0) {
+      alert("User Data is not found plese Register");
+      window.location.href = "../signup/signup.html";
+    } else if (signupls.length >= 1) {
+      for(let i=0;i<signupls.length;i++) {
+        if (obj.Email === signupls[i].email && obj.Password === signupls[i].password) {
+          flag = true;
+          alert("Login Succeccfully Completed");
+          localStorage.setItem("flag", JSON.stringify(flag));
+          return window.location.href = "user.html";
+        } else {
+          flag=false;
+        }
       }
     }
-    alert("Invalid Data");
-  };
-  
+  }
+  if(flag===false){
+    alert("Invalid Data")
+  }
+}
+
+console.log(signupls);
