@@ -1,18 +1,30 @@
-let submit = async () => {
-    let Email = document.getElementById("email").value;
-    let Password = document.getElementById("password").value;
-    let res = await fetch(`http://localhost:3000/signup`);
-    let data = await res.json();
-    check(data, Email, Password);
-  };
-  let check = (data, Email, Password) => {
-    for (let i = 0; i < data.length; i++) {
-      if (data[i].email === Email && Password == data[i].password) {
-        alert("Successfully loged. your redirecting into User page");
-        window.location.href="user.html"
-        return;
+let submit = () => {
+  let signupls = JSON.parse(localStorage.getItem("signup")) || [];
+  let signinls = [];
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("password").value;
+  if (email == "" || password == "") {
+    alert("Fill the form");
+  }
+  if (signupls.length <= 0) {
+      alert("User Data is not found plese Register");
+      window.location.href = "signup.html";
+  } else if (signupls.length >= 1) {
+    signupls.forEach((el) =>{
+      console.log(signupls);
+      if (password === el.password && email === el.email) {
+        signinls.push(el);
+        localStorage.setItem("signin", JSON.stringify(signinls));
+        alert("Login Succeccfully Completed");
+        window.location.href = "index.html";
+      } else if (email !== el.email || password !== el.password) {
+        console.log(email,el.email,password,el.password)
+        alert("wrong Details");
       }
-    }
-    alert("Invalid Data");
-  };
-  
+    });
+  }
+
+}
+
+
+
