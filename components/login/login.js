@@ -18,14 +18,14 @@ function subfunc(e) {
 
     if (signupls.length <= 0) {
       alert("User Data is not found plese Register");
-      window.location.href = "signup.html";
+      window.location.href = "../signup/signup.html";
     } else if (signupls.length >= 1) {
       for(let i=0;i<signupls.length;i++) {
         if (obj.Email === signupls[i].email && obj.Password === signupls[i].password) {
           flag = true;
           alert("Login Succeccfully Completed");
           localStorage.setItem("flag", JSON.stringify(flag));
-          return window.location.href = "index.html";
+          return window.location.href = "user.html";
         } else {
           flag=false;
         }
