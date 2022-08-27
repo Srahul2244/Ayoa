@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="whiteboard.css" />
+    <link rel="stylesheet" href="./../../../assets/Home_nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
       integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,6 +14,7 @@
   </head>
 
   <body>
+    <div id="whitenav"></div>
     <div id="pen-tools" class="pen-tools">
       <div id="drawing-colors" class="drawing-colors">
         <div class="color-circle active" data-color="hotpink" onclick="selectColor(this)"></div>
@@ -61,3 +63,10 @@
 
 </html>
 <script src="whiteboard.js"></script>
+<script type="module">
+  let nav = document.querySelector("#whitenav");
+  import home_nav from './../../../assets/Home_nav.js'
+  nav.innerHTML = home_nav();
+  console.log(home_nav())
+</script>
+<script src="./../user.js"></script>

@@ -152,4 +152,13 @@ input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover{
         border-radius:20px ;
         margin: 10px;
     }
+    #signupp>button{
+        border-radius: 16.5px;
+        background: linear-gradient(180deg, #089AFF 0%, #0D96FF 100%);
+        border: 1px solid #008DF0 ;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 10.4px;
+    
+    }
 }

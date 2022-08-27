@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar With Tooltip On Hover</title>
     <link rel="stylesheet" href="mind-map.css">
+    <link rel="stylesheet" href="./../../../assets/Home_nav.css">
     
 </head>
 <body>
+    <div id="mindnav"></div>
     <nav id="navbar">
         <div id="public">
             <a href="#" onclick="undo()" style="--icons:url(./icons/left.svg)"><span>Undo</span></a>
@@ -45,5 +47,12 @@
 <script src="./scripts/mind-map.js">
 </script>
 </html>
+
+<script type="module">
+    let nav = document.querySelector("#mindnav");
+    import home_nav from './../../../assets/Home_nav.js'
+    nav.innerHTML = home_nav();
+    console.log(home_nav())
+  </script>
 
 
