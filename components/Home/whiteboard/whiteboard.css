@@ -129,20 +129,25 @@ p {
   justify-content: center;
 }
 
-#feature {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 2px;
+#feature{
+  margin-left: 8px;
+  padding: 3px;
+
 }
 #feature button {
   width: 100%;
   background-color: white;
   color: rgb(20, 87, 204);
+  margin-left: -5px;
+  margin-right: 2px;
 }
 #feature > div {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 5px;
+
+  position:static;
+  justify-content: flex-start;
+
 }
 
