@@ -160,7 +160,7 @@
             </div>
         </div>
     </div>
-
+<div id="footer"></div>
 </body>
 </html>
 
@@ -168,5 +168,8 @@
     let nav=document.querySelector("#nav_container");
     import navbar from './components/navbar.js'
     nav.innerHTML=navbar();
+    let foot=document.querySelector("#footer");
+    import footer from './components/footer.js'
+    foot.innerHTML=footer();
   </script>
   <script src="./Scripts/nav.js"></script>
