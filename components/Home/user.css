@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Nunito Sans", sans-serif;
-  user-select: none;
+
 }
 
 html {
@@ -325,8 +325,8 @@ button:active {
   padding: 8px;
 }
 #togal>div:nth-child(1)>span{
-  border-bottom: .1px solid rgb(112, 112, 112);
-  border-right: .1px solid rgb(182, 176, 176);
+  border-bottom: 0.1px solid rgb(182, 176, 176);
+  border-right: 0.1px solid rgb(182, 176, 176);
   
   padding: 10px 5px 10px 5px;
 

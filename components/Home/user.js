@@ -15,10 +15,39 @@ document.getElementById("sidecheck").addEventListener("click", function () {
   }
 });
 
+
+// =======================apend name=====================
 let data = JSON.parse(localStorage.getItem("signup"));
 
 let name = document.querySelector("#localname");
 let name2 = document.querySelector("#lname");
-console.log(name);
+
 name.innerText = `Hello, ${data[0].name}`;
 name2.innerHTML = data[0].name;
+
+
+
+// ============================dispath===========================
+
+let result=true;
+
+document.getElementById("btnCN").addEventListener("hover",function(){
+  if(result==true){
+    result=false;
+  }
+  else{
+    result=true;
+  }
+  console.log(result)
+})
+
+
+
+
+
+
+
+
+
+
+
