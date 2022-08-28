@@ -12,6 +12,8 @@
     justify-content: space-between;
     background-color: rgba(11, 149, 255, 0.45);
     color: white;
+
+    
 }
 
 #navbar>div{
@@ -20,6 +22,8 @@
      gap:20px;
     color: rgb(104, 140, 184);
     border: 10px;
+    
+
 }
 #btn, #btn1{
     /* color:red;

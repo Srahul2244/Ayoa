@@ -90,7 +90,8 @@ function home_nav(){
       </button>
     </div>
     <div id="navtwo">
-      <button>
+      <button id="user_page">
+      
         <img
           src="https://app-assets.ayoa.com/8.94.0/images/icons/home.svg"
           alt="Home"

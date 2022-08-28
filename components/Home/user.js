@@ -42,6 +42,11 @@ document.getElementById("btnCN").addEventListener("hover",function(){
 })
 
 
+document.querySelector("#user_page").addEventListener("click",function(){
+  console.log("hii")
+})
+
+
 
 
 

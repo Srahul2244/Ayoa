@@ -20,6 +20,7 @@
     transform: translateX(-270px);
     transition: transform 250ms ease-in-out;
     border-radius: 8px;
+    z-index: 20;
   }
   
   #sideone {
@@ -72,7 +73,7 @@
     grid-template-columns: 20% 32% 54%;
     background: #1794ff;
     align-items: center;
-    width: 120%;
+    width: 100%;
     padding: 5px 0 0px 0;
   }
   #navtwo {
@@ -102,10 +103,13 @@
   button:active {
     transform: scale(0.95);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
   }
   #navone {
     display: flex;
     align-items: center;
+    z-index: 200;
+
   }
   
   #logo img {
@@ -113,6 +117,8 @@
   }
   #logo {
     margin-right: 80px;
+    z-index: 200;
+
   }
   .fa-bars{
     color: #fff;
