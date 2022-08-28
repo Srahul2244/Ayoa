@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&display=swap" rel="stylesheet">
-        <title>Document</title>
-    <link rel="stylesheet" href="ultimate.css">
-    <link rel="stylesheet" href="../../../index.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&display=swap" rel="stylesheet">
+            <title>Document</title>
+        <link rel="stylesheet" href="ultimate.css">
+        <link rel="stylesheet" href="../../../index.css">
+    </head>
 
 <body>
     <div id="navbar">
@@ -28,11 +28,11 @@
             <p>Experience Ayoa Ultimate. Includes Ayoa Mind Map, Ayoa Task and much more…</p>
             <p id="difcolONe">Supercharge your ideas with AI, brainstorm with your team, task manage projects, and organise personal to-do-lists, all in one place.</p>
     
-            <div id="inputDiv">
-                <input type="email" placeholder="Enter your email" id="emailInput" >
-                <button id="getStartedButton"><a href="/components/signup/signup.html">Get started for free</a></button>
-
+            <div id="inputD">
+                <input type="email" placeholder="Enter your email" id="emailInp" >
+                <button id="getStartedBtn">Get started</button>
             </div>
+
             <div id="benifitsDiv">
                 <p><span>&#10004;</span>Free 7-day trial</p>
                 <p><span>&#10004;</span>No credit card required</p>
@@ -58,11 +58,7 @@
         </div>
 
             <!-- <img src="https://www.ayoa.com/wp-content/uploads/2021/10/ayoa_computers@2x.png" alt="" id="productivityImg"> -->
-            <video  autoplay loop muted>
-                <source src="https://www.ayoa.com/wp-content/uploads/2021/11/svg_animations_gi_2.mp4" type="video/mp4" />
-                <source src="https://www.ayoa.com/wp-content/uploads/2021/11/svg_animations_gi_2.mp4" type="video/ogg" />
-                Your browser does not support the video tag.
-              </video>
+            <video src="https://www.ayoa.com/wp-content/uploads/2021/11/svg_animations_gi_2.mp4" alt="">
                 
     </div>
 
@@ -147,7 +143,7 @@
 
         <div id="getStatrforfreeDiv">
             <input type="email" placeholder="Enter your emiail" id="getStatrforfreeInput">
-            <a href="/components/signup/signup.html"><button id="getStatrforfreeButton">Get started for free</button></a>
+            <button id="getStatrforfreeButton">Get started for free</button>
         </div>
     </div>
 
@@ -161,15 +157,21 @@
             <div>
                 <p>As world leaders in innovation, we’ve built Ayoa to be much more than just a tool for ideation and task management – it is a whole new way of achieving your goals.</p>
                 <p>Through our global training and powerful software solutions, we are on a mission to educate, motivate and facilitate practical innovation into your daily lives – so you can dare to achieve more.</p>
-                <a href="/components/products/mindmappage/MindMap.html"><button>Discover more</button></a>
+                <button>Discover more</button>
             </div>
         </div>
     </div>
-    <div id="footer"></div>
+
 </body>
 </html>
 
-<script type="module">
+<!-- <script type="module">
+    let nav = document.querySelector("#navbar");
+    import navbar from './components/navbar.js'
+    nav.innerHTML=navbar();
+  </script> -->
+
+  <script type="module">
     let nav=document.querySelector("#navbar");
     import navbar from '../../../assets/navbar.js'
     nav.innerHTML=navbar();
