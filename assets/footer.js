@@ -40,7 +40,7 @@ function footer(){
             <ul>
                 <li><a href="/components/FooterPages/Help/help.html">Help</a></li>
                 <li><a href="/components/FooterPages/Faq/FAQ.html">FAQ</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="/components/contact/contact.html">Contact Us</a></li>
                 <li>Free Demo & Webinars</li>
                 <li>Where is Drop Task</li>
                 <li>How to Mind Map</li>

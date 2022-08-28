@@ -25,18 +25,8 @@ let name2 = document.querySelector("#lname");
 name.innerText = `Hello, ${data[0].name}`;
 name2.innerHTML = data[0].name;
 
+console.log(data[0].name)
 
 
-// ============================dispath===========================
 
-let result=true;
 
-document.getElementById("btnCN").addEventListener("hover",function(){
-  if(result==true){
-    result=false;
-  }
-  else{
-    result=true;
-  }
-  console.log(result)
-})
