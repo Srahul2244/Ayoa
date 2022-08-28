@@ -4,33 +4,17 @@ function footer(){
         <div>
             <h2>Ayoa</h2>
             <ul>
-                <li><a href="../components/features/features.html">Features</a></li>
+                <li><a href="/components/features/features.html">Features</a></li>
                 <li><a href="">Why Ayoa</a></li>
                 <li><a href="">About us</a></li>
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <li><a href="">Pricing</a></li>
-=======
-                <li><a href="../components/pricing/pricing.html">Pricing</a></li>
->>>>>>> bed788376ba2d25fa0b5c363af0145352682d422
-=======
-                <li><a href="../components/pricing/pricing.html">Pricing</a></li>
->>>>>>> bed788376ba2d25fa0b5c363af0145352682d422
                 <li>Integrations</li>
                 <li>Security</li>
             </ul>
             <h2>News</h2>
             <ul>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <li><a href="">Blog</a></li>
-                <li><a href="">Press</a></li>
-=======
-=======
->>>>>>> bed788376ba2d25fa0b5c363af0145352682d422
-                <li><a href="../components/resources/blog/Blog.html">Blog</a></li>
-                <li>Press</li>
->>>>>>> bed788376ba2d25fa0b5c363af0145352682d422
+                <li><a href="/components/blog/Blog.html">Blog</a></li>
+                <li><a href="/components/press/press.html">Press</a></li>
                 <li>Roadmap</li>
                 <li>Release Notes</li>
             </ul>
@@ -38,8 +22,8 @@ function footer(){
         <div>
             <h2>Use Cases</h2>
             <ul>
-                <li>Task Management</a></li>
-                <li>Mind Mapping</a></li>
+                <li><a href="/components/products/taskpage/ayoa_task.html">Task Management</a></li>
+                <li><a href="/components/products/mindmappage/MindMap.html">Mind Mapping</a></li>
                 <li>Project Management</li>
                 <li>Marketing</li>
                 <li>Finance</li>
@@ -54,9 +38,9 @@ function footer(){
         <div>
             <h2>Support</h2>
             <ul>
-                <li><a href="../components/Footer Pages/Help/help.html">Help</a></li>
-                <li><a href="../components/Footer Pages/Help/help.html">FAQ</a></li>
-                <li></li>
+                <li><a href="/components/FooterPages/Help/help.html">Help</a></li>
+                <li><a href="/components/FooterPages/Faq/FAQ.html">FAQ</a></li>
+                <li><a href="">Contact Us</a></li>
                 <li>Free Demo & Webinars</li>
                 <li>Where is Drop Task</li>
                 <li>How to Mind Map</li>

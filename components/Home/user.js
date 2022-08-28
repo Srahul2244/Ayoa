@@ -40,14 +40,3 @@ document.getElementById("btnCN").addEventListener("hover",function(){
   }
   console.log(result)
 })
-
-
-
-
-
-
-
-
-
-
-
