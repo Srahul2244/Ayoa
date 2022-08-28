@@ -46,19 +46,19 @@
 #difcolONe{
     color: #555454;
 }
-#inputDiv{
+#inputD{
     border: 10px solid #00a9fd2c;;
     display: flex;
     padding: 10px;
     border-radius: 10px;
 }
 
-#emailInput{
+#emailInp{
     height: 60px;
     width: 60%;
     border: none;
 }
-#getStartedButton{
+#getStartedBtn{
     width: 40%;
     background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
     border: none;
@@ -67,7 +67,7 @@
     border-radius: 10px;
     cursor: pointer;
 }
-#getStartedButton:hover{
+#getStartedBtn:hover{
     width: 40%;
     background-image:  linear-gradient(to bottom, #0395df, #015b88e1);
     border: none;
@@ -111,9 +111,6 @@
     background-color: #fff;
     border-radius: 5px;
     cursor: pointer;
-}
-video{
-    width: 60%;
 }
 #mindMappingHeading{
     font-family: sans-serif;

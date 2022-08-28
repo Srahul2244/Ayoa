@@ -39,6 +39,7 @@ document.getElementById("btnCN").addEventListener("hover",function(){
     result=true;
   }
   console.log(result)
+<<<<<<< HEAD
 })
 
 
@@ -56,3 +57,6 @@ document.querySelector("#user_page").addEventListener("click",function(){
 
 
 
+=======
+})
+>>>>>>> dad525c82fa4dc31800bab6504e5156d8c43bae8

@@ -20,6 +20,9 @@
     color: white;
 
 }
+#getStatrforfreeButton a{
+    color: #fff;
+}
 
 #container>h1{
     color: white;
@@ -221,7 +224,8 @@ background: linear-gradient(60deg, rgba(44,90,132,1) 0%, rgba(8,70,111,1) 26%, r
     font-size: 30px;
     color: rgb(65, 64, 61);
     font-family: sans-serif;
-    margin-top: -25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-weight: 600;
 }
 #container6>div>div>h2{

@@ -647,10 +647,14 @@ header {
     width: 40%;
     background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
     border: none;
-    color: white;
+    
     font-size: 25px;
     border-radius: 10px;
     cursor: pointer;
+}
+#getStartedButton a, #seeFullFeatureBTN a{
+  color: #fff;
+  font-weight: 700;
 }
 #getStartedButton:hover{
     width: 40%;
@@ -660,6 +664,11 @@ header {
     font-size: 25px;
     border-radius: 10px;
     cursor: pointer;
+}
+#findOutMoreButton a{
+  font-weight: 700;
+ 
+  color: #fff;
 }
 
 #mainPoster{

@@ -1,15 +1,81 @@
 *{
-    font-family:Arial, Helvetica, sans-serif;
-    margin:0;
-    padding:0;
- }
+    font-family: sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 
 #div{
     width:100%;
-    height: 1000px;
+    height: auto;
+    margin-top: 60px;
     text-align: center;
-    background:linear-gradient(.50turn, rgb(246, 245, 248), 50%, rgb(20, 85, 224));
+    background:linear-gradient(.50turn, rgb(255, 255, 255), 50%, #5a9fdb);
+}
+#getStatrforfreeDiv{
+    margin-top: 90px;
+    margin-bottom: 60px;
+
+ }
+ #getStatrforfreeInput{
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: none;
+ }
+ .getStatrforfreeButton{
+    height: 46px;
+    width: 200px;
+    background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
+    border: 2px solid #0395df;
+    color: white;
+    /* font-size: 25px; */
+    border-radius: 10px;
+    cursor: pointer;
+    
+ }
+ .getStatrforfreeButton:hover{
+    height: 46px;
+    width: 200px;
+    background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
+    border: 2px solid #fff;
+    color: white;
+    /* font-size: 25px; */
+    border-radius: 10px;
+    cursor: pointer;
+ }
+#tag{
+    margin-top: 100px;
+    color:lightgrey;
+}
+
+
+#ayoaUltimateLogoDiv{
+    width: 200px;
+    margin-top: 15px;
+    display: flex;
+    height:50px;
+    margin: auto;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(95, 223, 16) ;
+    color: white;
+    font-size: 25px;font-weight: 900;
+}
+#ayoaUltimateLogoDiv>img{
+    height: 60%;
+    padding-left:-54px ;
+    margin-left: 20px;
+    /* margin: auto; */
+    /* margin-left: 15px; */
+    /* margin: auto; */
+}#ayoaUltimateLogoDiv h1{
+    font-size: 25px;
+    margin-right: 30px;
 }
 #div #img1{
     width: 10%;
@@ -39,7 +105,7 @@
 }
 #div #input{
     font-size: 16px;
-    height: 30px;
+    height: 50px;
     width: 300px;
     padding: 10px;
     border-radius: 10px;
@@ -173,14 +239,18 @@
     margin-bottom: 20px;
     cursor: pointer;
 }
+#div3 h3{
+    margin-top: 80px;
+    color:#4a4949;
+}
 #div3 h3 span{
-    color:#5a9fdb;
+    color:#099cf8;
 }
 #div5{
     width: 100%;
     height:auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
     
 }
 #div5 h1{
