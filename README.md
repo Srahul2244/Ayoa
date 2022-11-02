@@ -1,10 +1,6 @@
-# grouchy-dinner-9447
-<details><summary>Contributors</summary>
-<p>
-
 # grouchy-diiner-9447
 
-```ruby
+```python
   Team members
   1. Rahul
   2. Karthik
@@ -13,27 +9,23 @@
   5. Sudipta 
 ```
 
-</p>
-</details>
+
 <br/>
 <p>
 
 ```ruby
-  Karthik (Made By)
+  Karthik 
 ```
 
 </p>
   
-Navbar, Footer, Signin and Signup<br/>
-Navbar Features<br/>
-> Responsive Navbar<br/>
+> Responsive Navbar & Footer<br/>
 > Dropdown menu<br/>
+> Sign in <br/>
+> Sign Up <br/>
 
-
-
-Sign in and Signup functionalities builded with the Help of JavaScript<br/>
 Each and every page are responsive<br/>
 
+<img src ="https://www.ayoa.com/wp-content/uploads/2020/07/ayoa_procomputer2.png" alt="ayoa"/>
 
-
-Visit https://clever-blancmange-323a30.netlify.app/
+Visit https://tiny-rugelach-e3e0ee.netlify.app/
