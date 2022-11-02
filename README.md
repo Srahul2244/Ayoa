@@ -24,7 +24,7 @@
 > Sign in <br/>
 > Sign Up <br/>
 
-Each and every page are responsive<br/>
+Every page is responsive<br/>
 
 <img src ="https://www.ayoa.com/wp-content/uploads/2020/07/ayoa_procomputer2.png" alt="ayoa"/>
 
