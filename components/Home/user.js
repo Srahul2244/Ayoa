@@ -14,7 +14,7 @@ document.getElementById("sidecheck").addEventListener("click", function () {
     document.querySelector("#logo").style.backgroundColor = "#002849";
   }
 });
-
+/*this is an ui*/
 
 // =======================apend name=====================
 let data = JSON.parse(localStorage.getItem("signup"));
